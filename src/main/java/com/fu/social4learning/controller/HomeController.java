@@ -1,4 +1,4 @@
-package com.fu.social4learning;
+package com.fu.social4learning.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
