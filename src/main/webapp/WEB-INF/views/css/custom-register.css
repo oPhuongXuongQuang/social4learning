@@ -1,0 +1,30 @@
+body {
+	display: block;
+  	position: relative;
+  	height: 100%;
+  	background-image: url("http://cdn9.truongtansang.net/files/2014/07/sg.jpg");
+  	background-size: cover;
+  	overflow: auto;
+  	font-family: "Open Sans",sans-serif;
+}
+
+.bg-bs-lblue-dark {
+	background: transparent !important;
+}
+
+div#wrapper.wrapper {
+	margin-top: 80px;
+}
+
+#signup-options {
+	background: rgba(0,0,0,0.3);
+    padding-bottom: 20px;
+}
+
+.signUp-social li .sign-in{
+	color: #FFFFFF;
+}
+
+.signUp-social li .sign-in:hover{
+	color: #b7d3f1;
+}
