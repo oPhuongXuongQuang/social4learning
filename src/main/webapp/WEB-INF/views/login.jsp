@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ page session="false"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 	<!--[if IE 8]>
 		<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" lang="en-US">
 	<![endif]-->

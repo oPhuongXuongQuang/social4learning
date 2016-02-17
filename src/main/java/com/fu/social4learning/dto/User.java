@@ -28,6 +28,7 @@ public class User implements java.io.Serializable {
 	private Date birth;
 	private Integer gender;
 	private Date createTime;
+	private String avatar;
 
 	public User() {
 	}
@@ -135,6 +136,15 @@ public class User implements java.io.Serializable {
 
 	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
+	}
+
+	@Column(name = "avatar", length = 65535)
+	public String getAvatar() {
+		return avatar;
+	}
+
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
 	}
 
 }

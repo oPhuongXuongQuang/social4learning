@@ -1,6 +1,10 @@
-
- 
 <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ page session="false"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <html>
 
 <!-- Mirrored from www.busuu.com/enc/enc/register by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2016 05:36:39 GMT -->
@@ -185,12 +189,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <span class="signUp-sep db">or</span>
 
   <div class="signup-container">
-  <form class="real-signup-form" id="js-signup">
+  <form:form class="real-signup-form" id="js-signup" action="./register" method="POST" modelAttribute="User">
 
   <div class="field-component">
     <div class="vam dib label"><label>First Name </label></div>
     <div class="input-wrapper">
-      <input class="name" id="name" placeholder="Your first name" />
+      <input id="name" placeholder="Your first name" path="firstname"/>
 
       <div class="sprite validation invalid"></div>
       <div class="sprite validation valid"></div>
@@ -201,7 +205,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="field-component">
     <div class="vam dib label"><label>Last Name </label></div>
     <div class="input-wrapper">
-      <input class="name" id="name" placeholder="Your last name" />
+      <input class="name" id="name" placeholder="Your last name" path="lastname"/>
 
       <div class="sprite validation invalid"></div>
       <div class="sprite validation valid"></div>
@@ -276,7 +280,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option value="Ganda">Ganda</option>
                     <option value="Georgian">Georgian</option>
                     <option value="Greek">Greek</option>
-                    <option value="Guaraní">Guaraní</option>
+                    <option value="GuaranÃ­">GuaranÃ­</option>
                     <option value="Gujarati">Gujarati</option>
                     <option value="Haitian">Haitian</option>
                     <option value="Hausa">Hausa</option>
@@ -325,14 +329,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option value="Marshallese">Marshallese</option>
                     <option value="Moldavian">Moldavian</option>
                     <option value="Mongolian">Mongolian</option>
-                    <option value="Māori">Māori</option>
+                    <option value="MÄori">MÄori</option>
                     <option value="Nauru">Nauru</option>
                     <option value="Navajo">Navajo</option>
                     <option value="Ndonga">Ndonga</option>
                     <option value="Nepali">Nepali</option>
                     <option value="Northern Sami">Northern Sami</option>
                     <option value="Norwegian">Norwegian</option>
-                    <option value="Norwegian Bokmål">Norwegian Bokmål</option>
+                    <option value="Norwegian BokmÃ¥l">Norwegian BokmÃ¥l</option>
                     <option value="Norwegian Nynorsk">Norwegian Nynorsk</option>
                     <option value="Occitan">Occitan</option>
                     <option value="Ojibwa">Ojibwa</option>
@@ -341,7 +345,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option value="Panjabi">Panjabi</option>
                     <option value="Pashto">Pashto</option>
                     <option value="Persian">Persian</option>
-                    <option value="Pāli">Pāli</option>
+                    <option value="PÄli">PÄli</option>
                     <option value="Quechua">Quechua</option>
                     <option value="Raeto-Romance">Raeto-Romance</option>
                     <option value="Romanian">Romanian</option>
@@ -385,7 +389,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option value="Uzbek">Uzbek</option>
                     <option value="Venda">Venda</option>
                     <option value="Vietnamese">Vietnamese</option>
-                    <option value="Volapük">Volapük</option>
+                    <option value="VolapÃ¼k">VolapÃ¼k</option>
                     <option value="Walloon">Walloon</option>
                     <option value="Welsh">Welsh</option>
                     <option value="Western Frisian">Western Frisian</option>
@@ -643,7 +647,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <option value="Yugoslavia"   >Yugoslavia</option>
                         <option value="Zambia"   >Zambia</option>
                         <option value="Zimbabwe"   >Zimbabwe</option>
-                        <option value="Åland Islands"   >Åland Islands</option>
+                        <option value="Ãland Islands"   >Ãland Islands</option>
                 </select>
 
       <div class="sprite validation invalid"></div>
@@ -685,13 +689,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 
-  <button class="btn btn--premium-secondary mtl start-learning is-rel">
-    Start learning  </button>
+  <input type="submit" value="Start learning"  />
 
   <p class="terms mtl">
   By joining I declare that I have read and accept the <a href="../terms.html">Terms and Conditions</a> and the <a href="../privacy.html">Privacy Policy</a>. social4learning will never send your information to third parties.  </p>
 
-</form>
+</form:form>
 </div>
 
 </div>
