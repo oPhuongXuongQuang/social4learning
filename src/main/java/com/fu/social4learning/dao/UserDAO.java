@@ -1,12 +1,13 @@
 package com.fu.social4learning.dao;
 // Generated Feb 12, 2016 9:50:33 PM by Hibernate Tools 4.3.1.Final
 
-import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.fu.social4learning.dto.User;
 
@@ -15,7 +16,7 @@ import com.fu.social4learning.dto.User;
  * @see com.fu.social4learning.dao.User
  * @author Hibernate Tools
  */
-@Stateless
+@Repository
 public class UserDAO {
 
 	private static final Log log = LogFactory.getLog(UserDAO.class);
@@ -23,6 +24,7 @@ public class UserDAO {
 	@PersistenceContext
 	private EntityManager entityManager;
 
+	@Transactional
 	public void persist(User transientInstance) {
 		log.debug("persisting User instance");
 		try {
@@ -34,6 +36,7 @@ public class UserDAO {
 		}
 	}
 
+	@Transactional
 	public void remove(User persistentInstance) {
 		log.debug("removing User instance");
 		try {
@@ -45,6 +48,7 @@ public class UserDAO {
 		}
 	}
 
+	@Transactional
 	public User merge(User detachedInstance) {
 		log.debug("merging User instance");
 		try {
@@ -57,6 +61,7 @@ public class UserDAO {
 		}
 	}
 
+	@Transactional
 	public User findById(Integer id) {
 		log.debug("getting User instance with id: " + id);
 		try {

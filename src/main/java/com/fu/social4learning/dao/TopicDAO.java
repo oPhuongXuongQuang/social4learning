@@ -1,12 +1,12 @@
 package com.fu.social4learning.dao;
 // Generated Feb 12, 2016 9:50:33 PM by Hibernate Tools 4.3.1.Final
 
-import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.stereotype.Repository;
 
 import com.fu.social4learning.dto.Topic;
 
@@ -15,7 +15,7 @@ import com.fu.social4learning.dto.Topic;
  * @see com.fu.social4learning.dao.Topic
  * @author Hibernate Tools
  */
-@Stateless
+@Repository
 public class TopicDAO {
 
 	private static final Log log = LogFactory.getLog(TopicDAO.class);

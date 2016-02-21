@@ -29,6 +29,7 @@ public class User implements java.io.Serializable {
 	private Integer gender;
 	private Date createTime;
 	private String avatar;
+	private String password;
 
 	public User() {
 	}
@@ -129,7 +130,7 @@ public class User implements java.io.Serializable {
 	}
 
 	@Temporal(TemporalType.DATE)
-	@Column(name = "createTime", nullable = false, length = 10)
+	@Column(name = "createTime", length = 10)
 	public Date getCreateTime() {
 		return this.createTime;
 	}
@@ -147,4 +148,12 @@ public class User implements java.io.Serializable {
 		this.avatar = avatar;
 	}
 
+	@Column(name = "password", length = 50)
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 }
