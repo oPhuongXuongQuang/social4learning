@@ -45,6 +45,7 @@
 	
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	
+	
 	<!-- <beans:bean id="userService" class="com.fu.social4learning.service.UserServiceImpl">
 	</beans:bean>
 	

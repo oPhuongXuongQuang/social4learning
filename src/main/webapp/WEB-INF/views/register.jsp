@@ -42,8 +42,12 @@
 <link rel="stylesheet" href="css/custom-register.css">
  
 </head>
-<body class=" is-register-visible">
-
+<body class="is-register-visible">
+	<link href="css/register-css.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/custom-register.css">
+	
+	<script type="text/javascript" src="js/custom-function.js"></script>
+	<script type="text/javascript" src="js/register-function.js"></script>
 <!-- Retargeting -->
 <script type="text/javascript" src="js/register-function.js"></script>
   
@@ -83,7 +87,7 @@
       </a>
     </li>
     <li style="color: #FFFFFF; font-size: 17px">
-    	Already registered? <a class="sign-in" href="./login.html">Sign in</a>
+    	Already registered? <a class="sign-in" href="./login">Sign in</a>
     </li>
   </ul>
 

@@ -1,6 +1,8 @@
 package com.fu.social4learning.dao;
 // Generated Feb 12, 2016 9:50:33 PM by Hibernate Tools 4.3.1.Final
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
@@ -72,5 +74,20 @@ public class UserDAO {
 			log.error("get failed", re);
 			throw re;
 		}
+	}
+	
+	@Transactional
+	public User userExist(User user) {
+		try {
+			List<User> results = entityManager.createNativeQuery("SELECT * FROM User WHERE email = \""  + user.getEmail() + "\" AND password =\"" + user.getPassword() + "\"").getResultList();
+			if (!results.isEmpty()){
+				return results.get(0);
+			}
+		} catch (RuntimeException re) {
+			log.error("get failed", re);
+			throw re;
+		}
+		
+		return null;
 	}
 }

@@ -18,4 +18,10 @@ public class UserServiceImpl implements UserService{
 		userDAO.merge(user);
 	}
 
+	@Override
+	public User checkUserExist(User user) {
+		// TODO Auto-generated method stub
+		return userDAO.userExist(user);
+	}
+
 }

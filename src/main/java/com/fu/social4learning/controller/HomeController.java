@@ -3,6 +3,8 @@ package com.fu.social4learning.controller;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +37,7 @@ public class HomeController {
 		
 		
 		
-		return "index";
+		return "homepage";
 	}
 	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -54,7 +56,7 @@ public class HomeController {
 		}
 		
 		try {
-//			user.setCreateTime(new Date());
+			user.setCreateTime(new Date());
 			userService.createUser(user);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -64,6 +66,26 @@ public class HomeController {
 		return "login";
 	}
 	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String loginGet(Model model) {
+		
+		model.addAttribute("user", new User());
+		
+		return "login";
+	}
 	
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public String loginPost(@ModelAttribute("user") User user, BindingResult bindingResult, Model model, HttpSession session) {
+		
+		User userInfo = userService.checkUserExist(user);
+		if (userInfo == null){
+			model.addAttribute("Error","LoginFail");
+			return "login";
+		}
+		userInfo.setPassword("");
+		session.setAttribute("USER", userInfo);
+		
+		return "homepage";
+	}
 	
 }

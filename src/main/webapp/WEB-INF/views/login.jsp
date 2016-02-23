@@ -80,22 +80,20 @@
 	<div id="login">
 		<h1><a href="#" title="" tabindex="-1">WPLMS</a></h1>
 	
-<form name="loginform" id="loginform" action="http://themes.vibethemes.com/wplms/skins/default/wp-login.php" method="post">
+<form:form name="loginform" id="loginform" action="login" method="post" commandName="user">
 	<p>
-		<label for="user_login">Username<br />
-		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
+		<label for="user_login">Email<br />
+		<form:input type="text" name="log" id="user_login" class="input" value="" size="20" path="email"/></label>
 	</p>
 	<p>
 		<label for="user_pass">Password<br />
-		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+		<form:input type="password" name="pwd" id="user_pass" class="input" value="" size="20" path="password"/></label>
 	</p>
 		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
 	<p class="submit">
 		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
-		<input type="hidden" name="redirect_to" value="http://themes.vibethemes.com/wplms/skins/default" />
-		<input type="hidden" name="testcookie" value="1" />
 	</p>
-</form>
+</form:form>
 
 <p id="nav">
 <a href="./register.html">Register</a> | 	<a href="wp-loginc2b6.html?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
