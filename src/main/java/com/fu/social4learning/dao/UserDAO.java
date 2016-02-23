@@ -80,11 +80,11 @@ public class UserDAO {
 	@Transactional
 	public boolean userExist(User user) {
 		try {
-			Query query = entityManager.createNamedQuery("User.login");
+			Query query = entityManager.createNamedQuery("User.login", User.class);
 			query.setParameter("email", user.getEmail());
 			query.setParameter("password", user.getPassword());
-			User result = (User) query.getSingleResult();
-			if (result != null){
+			List<User> result = query.getResultList();
+			if (!result.isEmpty()){
 				return true;
 			}
 		} catch (RuntimeException re) {

@@ -208,13 +208,19 @@
 							      <div id="bpavatar" style="float:left">
 							        <img src="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/avatars/732/732-bpfull.jpg" class="avatar user-732-avatar avatar-460 photo" width="460" height="460" alt="Profile picture of Quang Phương">      </div>
 							      <ul>
-							        <li id="username"><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/">Quang Phương</a></li>
+							        <li id="username"><a onclick="location.href='./userInfo'" href="#inline">Quang Phương</a></li>
 							        <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/profile/" title="View profile">View profile</a></li>
 							        <li id="vbplogout"><a href="http://themes.vibethemes.com/wplms/skins/default/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2F&amp;_wpnonce=9283aba521&amp;redirect_to=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault" id="destroy-sessions" rel="nofollow" class="logout" title="Log Out"><i class="icon-close-off-2"></i> LOGOUT</a></li>
 							        <li id="admin_panel_icon">        </li>
 							      </ul> 
 							      <ul>
-							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/dashboard"><i class="icon-meter"></i>Dashboard</a></li><li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/course"><i class="icon-book-open-1"></i>Courses</a></li><li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/course/course-stats"><i class="icon-analytics-chart-graph"></i>Stats</a></li><li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/messages"><i class="icon-letter-mail-1"></i>Inbox</a></li><li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/notifications"><i class="icon-exclamation"></i>Notifications <span>1</span></a></li><li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/settings"><i class="icon-settings"></i>Settings</a></li>      </ul>
+							    <li><a href="userInfo"><i class="icon-meter"></i>Dashboard</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/course"><i class="icon-book-open-1"></i>Courses</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/course/course-stats"><i class="icon-analytics-chart-graph"></i>Stats</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/messages"><i class="icon-letter-mail-1"></i>Inbox</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/notifications"><i class="icon-exclamation"></i>Notifications <span>1</span></a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/settings"><i class="icon-settings"></i>Settings</a></li>
+							          </ul>
 							    
 							        </div>
                     		</c:when>

@@ -3,6 +3,7 @@ package com.fu.social4learning.controller;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
@@ -32,9 +33,10 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model, HttpSession session) {
+	public String home(Locale locale, Model model, HttpServletRequest request) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
+		HttpSession session = request.getSession();
 		User user = (User) session.getAttribute("USER");
 		if (user != null) {
 			User userInfo = userService.getUserInfo(user.getEmail());
@@ -78,7 +80,8 @@ public class HomeController {
 	}
 	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String loginPost(@ModelAttribute("user") User user, BindingResult bindingResult, Model model, HttpSession session) {
+	public String loginPost(@ModelAttribute("user") User user, BindingResult bindingResult, Model model, HttpServletRequest request) {
+		HttpSession session = request.getSession();
 		
 		if (!userService.checkUserExist(user)){
 			model.addAttribute("Error","LoginFail");
@@ -88,6 +91,19 @@ public class HomeController {
 		session.setAttribute("USER", user);
 		
 		return "redirect:/";
+	}
+	
+	@RequestMapping(value = "/userInfo", method = RequestMethod.GET)
+	public String userInfo(Model model, HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		
+		User user = (User) session.getAttribute("USER");
+		if (user != null) {
+			User userInfo = userService.getUserInfo(user.getEmail());
+			model.addAttribute("USER", userInfo);
+		}
+		
+		return "userInfo";
 	}
 	
 }
