@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -77,11 +78,31 @@ public class UserDAO {
 	}
 	
 	@Transactional
-	public User userExist(User user) {
+	public boolean userExist(User user) {
 		try {
-			List<User> results = entityManager.createNativeQuery("SELECT * FROM User WHERE email = \""  + user.getEmail() + "\" AND password =\"" + user.getPassword() + "\"").getResultList();
-			if (!results.isEmpty()){
-				return results.get(0);
+			Query query = entityManager.createNamedQuery("User.login");
+			query.setParameter("email", user.getEmail());
+			query.setParameter("password", user.getPassword());
+			User result = (User) query.getSingleResult();
+			if (result != null){
+				return true;
+			}
+		} catch (RuntimeException re) {
+			log.error("get failed", re);
+			throw re;
+		}
+		
+		return false;
+	}
+	
+	@Transactional
+	public User getUserInfo(String email) {
+		try {
+			Query query = entityManager.createNamedQuery("User.findByEmail");
+			query.setParameter("email", email);
+			User result = (User) query.getSingleResult();
+			if (result != null){
+				return result;
 			}
 		} catch (RuntimeException re) {
 			log.error("get failed", re);

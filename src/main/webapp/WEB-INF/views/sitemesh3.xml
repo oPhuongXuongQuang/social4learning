@@ -1,3 +1,0 @@
-<sitemesh>
-  <mapping path="homepage.jsp" decorator="masterpage.jsp"/>
-</sitemesh>	

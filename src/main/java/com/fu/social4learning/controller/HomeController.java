@@ -32,12 +32,15 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	public String home(Locale locale, Model model, HttpSession session) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
-		
-		
-		return "homepage";
+		User user = (User) session.getAttribute("USER");
+		if (user != null) {
+			User userInfo = userService.getUserInfo(user.getEmail());
+			model.addAttribute("USER", userInfo);
+		}
+		return "index";
 	}
 	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -77,15 +80,14 @@ public class HomeController {
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String loginPost(@ModelAttribute("user") User user, BindingResult bindingResult, Model model, HttpSession session) {
 		
-		User userInfo = userService.checkUserExist(user);
-		if (userInfo == null){
+		if (!userService.checkUserExist(user)){
 			model.addAttribute("Error","LoginFail");
 			return "login";
 		}
-		userInfo.setPassword("");
-		session.setAttribute("USER", userInfo);
+		user.setPassword("");
+		session.setAttribute("USER", user);
 		
-		return "homepage";
+		return "redirect:/";
 	}
 	
 }

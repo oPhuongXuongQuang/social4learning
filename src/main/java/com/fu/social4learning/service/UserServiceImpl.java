@@ -19,9 +19,14 @@ public class UserServiceImpl implements UserService{
 	}
 
 	@Override
-	public User checkUserExist(User user) {
+	public boolean checkUserExist(User user) {
 		// TODO Auto-generated method stub
 		return userDAO.userExist(user);
+	}
+
+	public User getUserInfo(String email) {
+		// TODO Auto-generated method stub
+		return userDAO.getUserInfo(email);
 	}
 
 }
