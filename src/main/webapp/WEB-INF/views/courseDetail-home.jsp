@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -7,12 +7,12 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <html lang="en-US">
 
-<!-- Mirrored from themes.vibethemes.com/wplms/skins/default/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2016 05:50:36 GMT -->
+<!-- Mirrored from themes.vibethemes.com/wplms/skins/default/course/software-training/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2016 05:58:31 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
-    <title>Social website for learning </title>
+    <title>${course.name} &#8211; S4L</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="VibeThemes">
     <link rel="shortcut icon" href="#" />
@@ -23,7 +23,7 @@
     <meta name='robots' content='noindex,follow' />
     <link rel="alternate" type="application/rss+xml" title="WPLMS &raquo; Feed" href="feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="WPLMS &raquo; Comments Feed" href="comments/feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="WPLMS &raquo; Home Comments Feed" href="home/feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="WPLMS &raquo; Software Training Comments Feed" href="feed/index.html" />
     <script type="text/javascript">
         window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/", "ext": ".png", "source": { "concatemoji": "http:\/\/themes.vibethemes.com\/wplms\/skins\/default\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2" } };
         !function (a, b, c) { function d(a) { var c, d = b.createElement("canvas"), e = d.getContext && d.getContext("2d"), f = String.fromCharCode; return e && e.fillText ? (e.textBaseline = "top", e.font = "600 32px Arial", "flag" === a ? (e.fillText(f(55356, 56806, 55356, 56826), 0, 0), d.toDataURL().length > 3e3) : "diversity" === a ? (e.fillText(f(55356, 57221), 0, 0), c = e.getImageData(16, 16, 1, 1).data.toString(), e.fillText(f(55356, 57221, 55356, 57343), 0, 0), c !== e.getImageData(16, 16, 1, 1).data.toString()) : ("simple" === a ? e.fillText(f(55357, 56835), 0, 0) : e.fillText(f(55356, 57135), 0, 0), 0 !== e.getImageData(16, 16, 1, 1).data[0])) : !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g; c.supports = { simple: d("simple"), flag: d("flag"), unicode8: d("unicode8"), diversity: d("diversity") }, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
@@ -42,57 +42,60 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='layerslider-css' href='wp-content/plugins/LayerSlider/static/css/layersliderdeba.css?ver=5.5.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='bbp-default-css' href='wp-content/plugins/bbpress/templates/default/css/bbpresse4d2.css?ver=2.5.8-5815' type='text/css' media='screen' />
-    <link rel='stylesheet' id='wplms-customizer-css-css' href='wp-content/plugins/wplms-customizer/css/customc1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='bp-course-css-css' href='wp-content/plugins/vibe-course-module/includes/css/course_templatec1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='google-webfonts-css' href='http://fonts.googleapis.com/css?family=Open+Sans:regular|Raleway:regular|&amp;subsets=latin' type='text/css' media='all' />
-    <link rel='stylesheet' id='bbpress-css-css' href='wp-content/themes/wplms/assets/css/bbpress.min7406.css?ver=2.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-css-css' href='wp-content/themes/wplms/assets/css/woocommerce.min7406.css?ver=2.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='wplms-style-css' href='wp-content/themes/wplms/assets/css/style.min7406.css?ver=2.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='evcal_google_fonts-css' href='http://fonts.googleapis.com/css?family=Oswald%3A400%2C300%7COpen+Sans%3A400%2C300&amp;ver=4.4.2' type='text/css' media='screen' />
-    <link rel='stylesheet' id='evcal_cal_default-css' href='wp-content/plugins/eventON/assets/css/eventon_stylese62b.css?ver=2.3.15' type='text/css' media='all' />
-    <link rel='stylesheet' id='evo_font_icons-css' href='wp-content/plugins/eventON/assets/fonts/font-awesomec1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='evo_dv_styles-css' href='wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/greensockcd11.js?ver=1.11.8'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
-    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquerydeba.js?ver=5.5.0'></script>
-    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.transitionsdeba.js?ver=5.5.0'></script>
+    <link rel='stylesheet' id='layerslider-css' href='../wp-content/plugins/LayerSlider/static/css/layersliderdeba.css?ver=5.5.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='bbp-default-css' href='../wp-content/plugins/bbpress/templates/default/css/bbpresse4d2.css?ver=2.5.8-5815' type='text/css' media='screen' />
+    <link rel='stylesheet' id='wplms-customizer-css-css' href='../wp-content/plugins/wplms-customizer/css/customc1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='bp-course-css-css' href='../wp-content/plugins/vibe-course-module/includes/css/course_templatec1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-webfonts-css' href='../http://fonts.googleapis.com/css?family=Open+Sans:regular|Raleway:regular|&amp;subsets=latin' type='text/css' media='all' />
+    <link rel='stylesheet' id='bbpress-css-css' href='../wp-content/themes/wplms/assets/css/bbpress.min7406.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-css-css' href='../wp-content/themes/wplms/assets/css/woocommerce.min7406.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='wplms-style-css' href='../wp-content/themes/wplms/assets/css/style.min7406.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='evcal_google_fonts-css' href='../http://fonts.googleapis.com/css?family=Oswald%3A400%2C300%7COpen+Sans%3A400%2C300&amp;ver=4.4.2' type='text/css' media='screen' />
+    <link rel='stylesheet' id='evcal_cal_default-css' href='../wp-content/plugins/eventON/assets/css/eventon_stylese62b.css?ver=2.3.15' type='text/css' media='all' />
+    <link rel='stylesheet' id='evo_font_icons-css' href='../wp-content/plugins/eventON/assets/fonts/font-awesomec1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='evo_dv_styles-css' href='../wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/greensockcd11.js?ver=1.11.8'></script>
+    <script type='text/javascript' src='../wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
+    <script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquerydeba.js?ver=5.5.0'></script>
+    <script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/layerslider.transitionsdeba.js?ver=5.5.0'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var BP_Confirm = { "are_you_sure": "Are you sure?" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/confirm.minb2da.js?ver=2.4.3'></script>
+    <script type='text/javascript' src='../wp-content/plugins/buddypress/bp-core/js/confirm.minb2da.js?ver=2.4.3'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
-        var wc_add_to_cart_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View Cart", "cart_url": "http:\/\/themes.vibethemes.com\/wplms\/skins\/default\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+        var wc_add_to_cart_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/course\/software-training\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View Cart", "cart_url": "http:\/\/themes.vibethemes.com\/wplms\/skins\/default\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/wplms-customizer/js/customc1f9.js?ver=4.4.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart83b6.js?ver=4.6.2'></script>
-    <script type='text/javascript' src='wp-content/themes/wplms/assets/js/old_files/nprogress7406.js?ver=2.0.1'></script>
-    <link rel='https://api.w.org/' href='wp-json/index.html' />
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min16b9.js?ver=2.5.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/wplms-customizer/js/customc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart83b6.js?ver=4.6.2'></script>
+    <script type='text/javascript' src='../wp-content/themes/wplms/assets/js/old_files/nprogress7406.js?ver=2.0.1'></script>
+    <link rel='https://api.w.org/' href='../wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+    <link rel='prev' title='Developing Mobile Apps' href='../../developing-mobile-apps/index.html' />
     <meta name="generator" content="WordPress 4.4.2" />
     <meta name="generator" content="WooCommerce 2.5.2" />
     <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='index.html' />
+    <link rel='shortlink' href='../indexc78f.html?p=1260' />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed3d4b.json?url=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2Fcourse%2Fsoftware-training%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedc007?url=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2Fcourse%2Fsoftware-training%2F&amp;format=xml" />
 
     <script type="text/javascript">var ajaxurl = 'wp-admin/admin-ajax.html';</script>
 
-	
-	
+
+
     <!-- EventON Version -->
     <meta name="generator" content="EventON 2.3.15" />
 
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
     <!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://themes.vibethemes.com/wplms/skins/default/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]-->
     <input type="hidden" id="bp_social_connect_security" name="bp_social_connect_security" value="2f5fa3c4e8" />
-    <input type="hidden" name="_wp_http_referer" value="/wplms/skins/default/" />
+    <input type="hidden" name="_wp_http_referer" value="/wplms/skins/default/course/software-training/" />
     <script type="text/javascript">
         var ajaxurl = 'wp-admin/admin-ajax.html';
     </script>
@@ -149,34 +152,36 @@
         }
     </style>
     <noscript>
-    <style>
-        .wpb_animate_when_almost_visible {
-            opacity: 1;
-        }
-    </style></noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
 </head>
-<body class="home-page home page page-id-1427 page-template page-template-notitle page-template-notitle-php logged-out wpb-js-composer js-comp-ver-4.6.2 vc_responsive">
-<div id="global" class="global">
-    <div class="pagesidebar">
-        <div class="sidebarcontent">
-            <h2 id="sidelogo">
-                <a href="./"><img src="wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
-            </h2>
-            <ul id="menu-mobilemenu" class="sidemenu">
-                <li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1427 current_page_item menu-item-2013"><a href="index.html">Home</a></li>
-                <li id="menu-item-2015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2015"><a href="groups/index.html">Groups</a></li>
-                <li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2014"><a href="blog/index.html">Blog</a></li>
-                <li id="menu-item-2016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2016"><a href="contact-us/index.html">Contact</a></li>
-            </ul>
+<body class="single single-course postid-1260 logged-out wpb-js-composer js-comp-ver-4.6.2 vc_responsive">
+    <div id="global" class="global">
+        <div class="pagesidebar">
+            <div class="sidebarcontent">
+                <h2 id="sidelogo">
+                    <a href="index.html"><img src="../wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
+                </h2>
+                <ul id="menu-mobilemenu" class="sidemenu">
+                    <li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2013"><a href="index.html">Home</a></li>
+                    <li id="menu-item-2015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2015"><a href="groups/index.html">Groups</a></li>
+                    <li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2014"><a href="blog/index.html">Blog</a></li>
+                    <li id="menu-item-2016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2016"><a href="contact-us/index.html">Contact</a></li>
+                </ul>
+            </div>
+            <a class="sidebarclose"><span></span></a>
         </div>
-        <a class="sidebarclose"><span></span></a>
-    </div>
-    <div class="pusher">
-        <div id="headertop" class="fix">
+        <div class="pusher">
+
+<div id="headertop" class="fix">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-3 col-xs-4">
-                        <a href="./" class="homeicon"><img src="wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
+                        <a href="../" class="homeicon"><img src="../wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
                     </div>
                     <div class="col-md-8 col-sm-9 col-xs-8">
                         <ul class="topmenu">
@@ -185,7 +190,7 @@
 	                            	<c:when test="${USER != null}">
 	                            		<a href="" class="smallimg vbplogin">
 			                            <em></em>
-			                            <img src="${USER.avatar}" class="avatar user-732-avatar avatar-460 photo" onError="this.onerror=null;this.src='image/blank_avt.png';"
+			                            <img src="../${USER.avatar}" class="avatar user-732-avatar avatar-460 photo" onError="this.onerror=null;this.src='../image/blank_avt.png';"
 			                            alt="Profile picture of ${USER.firstname} ${USER.lastname}">
 			                            ${USER.firstname} ${USER.lastname}</a>
 	                            	</c:when>
@@ -204,12 +209,12 @@
                     		<c:when test="${USER != null}">
 							                        <div id="sidebar-me">
 							      <div id="bpavatar">
-							        <img src="${USER.avatar}" onError="this.onerror=null;this.src='image/blank_avt.png';" class="avatar user-732-avatar avatar-460 photo" alt="Profile picture of Quang Phương">
+							        <img src="../${USER.avatar}" onError="this.onerror=null;this.src='../image/blank_avt.png';" class="avatar user-732-avatar avatar-460 photo" alt="Profile picture of Quang Phương">
 							        </div>
 							      <ul>
-							        <li id="username"><a href="./userInfo/${USER.id}">${USER.firstname} ${USER.lastname}</a></li>
-							        <li><a href="./userInfo/${USER.id}" title="View profile">View profile</a></li>
-							        <li id="vbplogout"><a href="./logout" id="destroy-sessions" rel="nofollow" class="logout" title="Log Out"><i class="icon-close-off-2"></i> LOGOUT</a></li>
+							        <li id="username"><a href="../userInfo/${USER.id}">Quang Phương</a></li>
+							        <li><a href="../userInfo/${USER.id}" title="View profile">View profile</a></li>
+							        <li id="vbplogout"><a href="../logout" id="destroy-sessions" rel="nofollow" class="logout" title="Log Out"><i class="icon-close-off-2"></i> LOGOUT</a></li>
 							        <li id="admin_panel_icon">        </li>
 							      </ul> 
 							      <ul>
@@ -225,23 +230,23 @@
                     		</c:when>
                     		<c:when test="${USER == null}">
                     			<form:form name="login-form" id="vbp-login-form" class="standard-form" action="login" method="post" commandName="user">
-		                            <label>
-		                                Email<br />
-		                                <form:input type="text" path="email" name="log" id="side-user-login" class="input" tabindex="1" value="" />
-		                            </label>
-		
-		                            <label>
-		                                Password <a href="wp-login0da1.html?action=lostpassword&amp;redirect_to=http://themes.vibethemes.com/wplms/skins/default/" tabindex="5" class="tip" title="Forgot Password"><i class="icon-question"></i></a><br />
-		                                <form:input type="password" path="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" />
-		                            </label>
-		
-		                            <div class="checkbox small">
-		                                <input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme">Remember Me</label>
-		                            </div>
-		
-		                            <input type="submit" name="user-submit" id="sidebar-wp-submit" value="Log In" tabindex="100" />
-		                            <a href="register" class="vbpregister" title="Create an account" tabindex="5">Sign Up</a>
-		                        </form:form>
+                                    <label>
+                                        Email<br />
+                                        <form:input type="text" path="email" name="log" id="side-user-login" class="input" tabindex="1" value="" />
+                                    </label>
+        
+                                    <label>
+                                        Password <a href="wp-login0da1.html?action=lostpassword&amp;redirect_to=http://themes.vibethemes.com/wplms/skins/default/" tabindex="5" class="tip" title="Forgot Password"><i class="icon-question"></i></a><br />
+                                        <form:input type="password" path="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" />
+                                    </label>
+        
+                                    <div class="checkbox small">
+                                        <input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme">Remember Me</label>
+                                    </div>
+        
+                                    <input type="submit" name="user-submit" id="sidebar-wp-submit" value="Log In" tabindex="100" />
+                                    <a href="register" class="vbpregister" title="Create an account" tabindex="5">Sign Up</a>
+                                </form:form>
                         
                         
                         <div class="bp_social_connect">
@@ -356,18 +361,19 @@
                 </div>
             </div>
         </div>
+
         <header>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-4">
                         <h2 id="logo">
-                            <a href="./"><img src="wp-content/themes/wplms/assets/images/logo.png" data-alt-logo="http://themes.vibethemes.com/wplms/skins/default/wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
+                            <a href="../"><img src="../wp-content/themes/wplms/assets/images/logo.png" data-alt-logo="http://themes.vibethemes.com/wplms/skins/default/wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
                         </h2>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-8">
                         <div id="searchicon"><i class="icon-search-2"></i></div>
                         <div id="searchdiv">
-                            <form role="search" method="get" id="searchform" action="./search">
+                            <form role="search" method="get" id="searchform" action="http://themes.vibethemes.com/wplms/skins/default/">
                                 <div>
                                     <label class="screen-reader-text" for="s">Search for:</label>
                                     <input type="text" value="" name="s" id="s" placeholder="Hit enter to search..." />
@@ -396,9 +402,9 @@
                                     <a href="all-courses/index.html"><strong>Instructors</strong></a>
                                 </li>
                                 <c:if test="${USER != null}">
-	                                <li id="main-menu-item-2029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-	                                    <a href="./login.html"><strong>Create courses</strong></a>
-	                                </li>
+                                    <li id="main-menu-item-2029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                        <a href="../login.html"><strong>Create courses</strong></a>
+                                    </li>
                                 </c:if>
                                 <li id="main-menu-item-2027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                                     <a href="page-builder-page/index.html"><strong>Help</strong></a>
@@ -416,197 +422,264 @@
                 </div>
             </div>
         </header>
+            <section id="content">
+                <div id="buddypress">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3">
 
-	<!-- Body masterpage -->
-			   
-			<section id="content">
-                <div class="container">
-                    <script>
- var opcarousel279 = {
-     "directionNav": true,
-     "animationLoop": false,
-     "slideshow": false
- };</script>
-                    <script>
-                        var opcarousel258 = {
-                            "directionNav": true,
-                            "animationLoop": true,
-                            "slideshow": true
-                        };</script>
-                    <script>
-                        var opcarousel625 = {
-                            "directionNav": true,
-                            "animationLoop": true,
-                            "slideshow": true
-                        };</script><div class="vibe_editor clearfix"></div>
-                </div>
-            </section>
-            <c:if test="${empty USER}">
-	            <section class='stripe'>
-	                <!-- Begin Stripe stripe fullwidth -->
-	                <div class="v_module v_column stripe fullwidth v_first">
-	                    <style>
-	                        .homepageslider.stripe {
-	                            margin-top: 0;
-	                        }
-	                    </style><div class="v_module layerslider " data-class="homepageslider">
-	                    <script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script>
-	                    <script data-cfasync="false" type="text/javascript">                        lsjQuery(document).ready(function () { if (typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_2_1', 'jquery'); } else { lsjQuery("#layerslider_2_1").layerSlider({ responsiveUnder: 1170, layersContainer: 1170, startInViewport: false, skinsPath: 'http://themes.vibethemes.com/wplms/skins/default/wp-content/plugins/LayerSlider/static/skins/' }) } });</script><div class="ls-wp-fullwidth-container" style="height:480px;"><div class="ls-wp-fullwidth-helper"><div id="layerslider_2_1" class="ls-wp-container" style="width:100%;height:480px;max-width:1600px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls="slidedelay:3000; transition2d: all;"><img src="wp-content/themes/wplms/setup/data/uploads/s3.jpg" class="ls-bg" alt="Slide background" /><h2 class="ls-l" style="top:112px;left:477px;font-weight:700; letter-spacing:2px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;font-size:32px;color:#FFFfff;background:rgba(35, 44, 46, 0.75);border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;easingin:easeOutBack;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">LEARNING MANAGEMENT SYSTEM</h2><p class="ls-l" style="top:64px;left:447px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px;font-size:20px;color:#FFF;white-space: nowrap;" data-ls="offsetxin:0;delayin:100;transformoriginin:50% bottom 0;offsetxout:0;">For WordPress </p><p class="ls-l" style="top:170px;left:446px;font-weight:600;text-transform:uppercase;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px;font-size:18px;color:#FFF;white-space: nowrap;" data-ls="offsetxin:0;delayin:200;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">Create your own Courses and sell online.<br> It IS Not just a WordPress Theme.</p><button onclick="                            location.href = './register'" class="ls-l" style="top:370px;left:487px;font-weight:600;text-transform:uppercase;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:14px;color:000px;background:#F16645;border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;delayin:550;easingin:easeOutBack;offsetxout:0;offsetyout:-80;">Sign Up Now</button></div><div class="ls-slide" data-ls="slidedelay:3000; transition2d: all;"><img src="wp-content/themes/wplms/setup/data/uploads/s2.jpg" class="ls-bg" alt="Slide background" /><h3 class="ls-l" style="top:77px;left:68px;font-weight:600;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:16px;color:#FFF;background:rgba(49, 59, 61, 0.80);border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;easingin:easeInOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">Create Courses, Modules, Units, Quizzes, Questions</h3><h3 class="ls-l" style="top:134px;left:68px;font-weight:600;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:16px;color:#FFF;background:rgba(49, 59, 61, 0.80);border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;delayin:100;easingin:easeInOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">Set Timers, Auto Or Manually Evaluate Quizzes</h3><h3 class="ls-l" style="top:189px;left:67px;font-weight:600;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:16px;color:#FFF;background:rgba(49, 59, 61, 0.80);border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;delayin:200;easingin:easeInOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">Check Results, Notifications , Messages</h3><h3 class="ls-l" style="top:245px;left:66px;font-weight:600;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:16px;color:#FFF;background:rgba(49, 59, 61, 0.80);border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;delayin:300;easingin:easeInOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">Set Badges, Certificates for Courses</h3><p class="ls-l" style="top:303px;left:67px;font-weight:600;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:16px;color:#FFF;background:rgba(49, 59, 61, 0.80);border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;delayin:400;easingin:easeInOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:0;">Sell course as Single, Group and Subscription</p><button onclick="                            location.href = './register'" class="ls-l" style="top:370px;left:487px;font-weight:600;text-transform:uppercase;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:14px;color:000px;background:#F16645;border-radius:2px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:80;delayin:550;easingin:easeOutBack;offsetxout:0;offsetyout:-80;">Sign Up Now</button></div></div></div></div></div>
-	                </div>
-	                <!-- End Stripestripe fullwidth -->
-	            </section>
-	            <section class='main'>
-                <div class='container'>
-                    <div class='full-width'>
-                        <div class='vibe_editor clearfix'>
-                            <div class="v_module v_column col-md-3 col-sm-3 v_first">
-                                <style>
-                                    .custom_block img {
-                                        max-width: 80px;
-                                        padding: 30px 0;
-                                    }
-
-                                    .custom_block h3 {
-                                        font-weight: 600;
-                                        text-transform: uppercase;
-                                        font-size: 17px;
-                                        margin-bottom: 0;
-                                    }
-
-                                        .custom_block h3 + p {
-                                            color: #bbb;
-                                            margin-top: 0;
-                                            font-size: 11px;
-                                            font-weight: 600;
-                                            text-transform: uppercase;
-                                        }
-                                </style><div class="v_module v_text_block  custom_block nothing_selected">
-                                    <p style="text-align: center;">
-                                        <img class="alignnone size-full wp-image-1430" src="http://vibethemes.com/envato/wplms/wp-content/uploads/2014/02/4.png" alt="Put your link here" width="140" height="140">
-                                    </p><h3 style="text-align: center;">Online Courses&nbsp;</h3><p style="text-align: center;">course management</p><p style="text-align: center;">It is a long established fact that a reader will be distracted.</p><p style="text-align: center;"> </p><p style="text-align: center;">&nbsp;</p>
-                                </div>
-                            </div> <!-- end .v_column_col-md-3 col-sm-3 -->
-                            <div class="v_module v_column col-md-3 col-sm-3 ">
-                                <div class="v_module v_text_block  custom_block nothing_selected"><p style="text-align: center;"><img class="alignnone size-full wp-image-1428" alt="1" src="http://vibethemes.com/envato/wplms/wp-content/uploads/2014/02/1.png" height="140" width="140"></p><h3 style="text-align: center;">Become an Instructor</h3><p style="text-align: center;">teach online</p><p style="text-align: center;">It is a long established fact that a reader will be distracted</p><p style="text-align: center;"> </p></div>
-                            </div> <!-- end .v_column_col-md-3 col-sm-3 -->
-                            <div class="v_module v_column col-md-3 col-sm-3 ">
-                                <div class="v_module v_text_block  custom_block nothing_selected"><p style="text-align: center;"><img class="alignnone size-full wp-image-1431" alt="3" src="http://vibethemes.com/envato/wplms/wp-content/uploads/2014/02/3.png" height="140" width="140"></p><h3 style="text-align: center;">Multi-Media Units</h3><p style="text-align: center;">Audio, Video playback</p><p style="text-align: center;">It is a long established fact that a reader will be distracted</p><p style="text-align: center;"> </p></div>
-                            </div> <!-- end .v_column_col-md-3 col-sm-3 -->
-                            <div class="v_module v_column col-md-3 col-sm-3 ">
-                                <div class="v_module v_text_block  custom_block nothing_selected"><p style="text-align: center;"><img class="alignnone size-full wp-image-1429" alt="2" src="http://vibethemes.com/envato/wplms/wp-content/uploads/2014/02/2.png" height="140" width="140"></p><h3 style="text-align: center;">subscribe courses</h3><p style="text-align: center;">Sell Courses</p><p style="text-align: center;">It is a long established fact that a reader will be distracted</p><p style="text-align: center;"> </p></div>
-                            </div> <!-- end .v_column_col-md-3 col-sm-3 -->
-                            <div class="v_module v_column col-md-3 col-sm-3 v_first">
-                                <style>
-                                    .custom_banner img {
-                                        border: 5px solid #FFF;
-                                        box-shadow: 0 1px 2px #bbb;
-                                        border-radius: 2px;
-                                    }
-                                </style>
+                                <div id="item-header" role="complementary">
 
 
-            </section>
-            </c:if>
-            <section class='stripe'>
-                <div class='container'>
-                    <!-- Begin Stripe stripe_container fullwidth -->
-                    <div class="v_module v_column stripe_container fullwidth v_first">
-                        <style>
-                            .fullhomestripe.stripe {
-                                padding: 30px 0;
-                                background: #FFF;
-                            }
-                        </style>
-                        <div class="v_module custom_post_carousel " data-class="fullhomestripe">
-                            <div id="Popular_Courses"></div>
-                            <h3 class="heading"><span>Popular Courses</span></h3>
+                                    <div id="item-header-avatar">
+                                        <a href="index.html" title="Software Training"><img width="768" height="460" src="../wp-content/uploads/2014/02/softwaretraining1.jpg" class="attachment-full size-full wp-post-image" alt="softwaretraining" sizes="(max-width: 768px) 100vw, 768px" /></a>
+                                    </div><!-- #item-header-avatar -->
 
-                            <div id="carousel279" class="vibe_carousel flexslider loading   more_heading" data-block-width="262" data-block-max="4" data-block-min="2">
-                                <ul class="slides">
-                                    <li>
-                                        <div class="block courseitem course2" data-id="1260">
-	                                                <div class="block_media"><a href="./course-detail/home?id=1"><img width="300" height="180" src="wp-content/uploads/2014/02/softwaretraining1-460x276.jpg" class="attachment-medium size-medium wp-post-image" alt="softwaretraining" sizes="(max-width: 300px) 100vw, 300px"></a></div><div class="block_content">
-	                                                    <h4 class="block_title"><a href="./course-detail/home?id=1" title="400 Words of TOEFL - Intermediate English">400 Words of TOEFL - Intermediate English</a></h4><div class="star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>(&nbsp;4&nbsp;REVIEWS&nbsp;)</div><strong><i class="fa fa-users"></i>&nbsp;2</strong><span class="clear"></span><div class="instructor_course">
-	                                                        <div class="item-avatar"><img src="./image/blank_avt.png" onerror="this.onerror=null;this.src='./image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo"></div>
-	                                                        <h5 class="course_instructor">
-	                                                            <a href="./userInfo/2">Minh Nguyen Tuan<span>English</span></a>
-	                                                        </h5>
-	                                                    </div><strong><del><span class="amount">£29.00</span></del> <ins><span class="amount">£19.00</span></ins><span class="subs"> per  month</span></strong>
-	                                                </div>
-	                                            </div>
-                                    </li>
-                                    <li>
-                                        <div class="block courseitem course2" data-id="1260">
-	                                                <div class="block_media"><a href="./course-detail/home?id=2"><img width="300" height="180" src="wp-content/uploads/2014/02/softwaretraining1-460x276.jpg" class="attachment-medium size-medium wp-post-image" alt="softwaretraining" sizes="(max-width: 300px) 100vw, 300px"></a></div><div class="block_content">
-	                                                    <h4 class="block_title"><a href="./course-detail/home?id=2" title="Practise Your Listening
-">Practise Your Listening
-</a></h4><div class="star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>(&nbsp;4&nbsp;REVIEWS&nbsp;)</div><strong><i class="fa fa-users"></i>&nbsp;3</strong><span class="clear"></span><div class="instructor_course">
-	                                                        <div class="item-avatar"><img src="./image/blank_avt.png" onerror="this.onerror=null;this.src='./image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo"></div>
-	                                                        <h5 class="course_instructor">
-	                                                            <a href="./userInfo/2">Minh Nguyen Tuan<span>English</span></a>
-	                                                        </h5>
-	                                                    </div><strong><del><span class="amount">£29.00</span></del> <ins><span class="amount">£19.00</span></ins><span class="subs"> per  month</span></strong>
-	                                                </div>
-	                                            </div>
-                                    </li>
-                                    <li>
-	                                            <div class="block courseitem course2" data-id="1260">
-	                                                <div class="block_media"><a href="./course-detail/home?id=3"><img width="300" height="180" src="wp-content/uploads/2014/02/softwaretraining1-460x276.jpg" class="attachment-medium size-medium wp-post-image" alt="softwaretraining" sizes="(max-width: 300px) 100vw, 300px"></a></div><div class="block_content">
-	                                                    <h4 class="block_title"><a href="./course-detail/home?id=3" title="Easy English Grammar">Easy English Grammar</a></h4><div class="star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>(&nbsp;4&nbsp;REVIEWS&nbsp;)</div><strong><i class="fa fa-users"></i>&nbsp;2</strong><span class="clear"></span><div class="instructor_course">
-	                                                        <div class="item-avatar"><img src="./image/blank_avt.png" onerror="this.onerror=null;this.src='./image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo"></div>
-	                                                        <h5 class="course_instructor">
-	                                                            <a href="./userInfo/2">Minh Nguyen Tuan<span>English</span></a>
-	                                                        </h5>
-	                                                    </div><strong><del><span class="amount">£29.00</span></del> <ins><span class="amount">£19.00</span></ins><span class="subs"> per  month</span></strong>
-	                                                </div>
-	                                            </div>
-                                    </li>
-                                    <li>
-	                                            <div class="block courseitem course2" data-id="1260">
-	                                                <div class="block_media"><a href="./course-detail/home?id=4"><img width="300" height="180" src="wp-content/uploads/2014/02/softwaretraining1-460x276.jpg" class="attachment-medium size-medium wp-post-image" alt="softwaretraining" sizes="(max-width: 300px) 100vw, 300px"></a></div><div class="block_content">
-	                                                    <h4 class="block_title"><a href="./course-detail/home?id=4" title="Essential English with Context">Essential English with Context</a></h4><div class="star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>(&nbsp;4&nbsp;REVIEWS&nbsp;)</div><strong><i class="fa fa-users"></i>&nbsp;3</strong><span class="clear"></span><div class="instructor_course">
-	                                                        <div class="item-avatar"><img src="./image/blank_avt.png" onerror="this.onerror=null;this.src='./image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo"></div>
-	                                                        <h5 class="course_instructor">
-	                                                            <a href="./userInfo/2">Minh Nguyen Tuan<span>English</span></a>
-	                                                        </h5>
-	                                                    </div><strong><del><span class="amount">£29.00</span></del> <ins><span class="amount">£19.00</span></ins><span class="subs"> per  month</span></strong>
-	                                                </div>
-	                                            </div>
-                                    </li>
-                                    <li>
-	                                            <div class="block courseitem course2" data-id="1260">
-	                                                <div class="block_media"><a href="./course-detail/home?id=5"><img width="300" height="180" src="wp-content/uploads/2014/02/softwaretraining1-460x276.jpg" class="attachment-medium size-medium wp-post-image" alt="softwaretraining" sizes="(max-width: 300px) 100vw, 300px"></a></div><div class="block_content">
-	                                                    <h4 class="block_title"><a href="./course-detail/home?id=5" title="Advanced English for Native Speakers">Advanced English for Native Speakers</a></h4><div class="star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>(&nbsp;4&nbsp;REVIEWS&nbsp;)</div><strong><i class="fa fa-users"></i>&nbsp;3</strong><span class="clear"></span><div class="instructor_course">
-	                                                        <div class="item-avatar"><img src="./image/blank_avt.png" onerror="this.onerror=null;this.src='./image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo"></div>
-	                                                        <h5 class="course_instructor">
-	                                                            <a href="./userInfo/1">Quang Phuong<span>English</span></a>
-	                                                        </h5>
-	                                                    </div><strong><del><span class="amount">£29.00</span></del> <ins><span class="amount">£19.00</span></ins><span class="subs"> per  month</span></strong>
-	                                                </div>
-	                                            </div>
-                                    </li>
-                                    <li>
-	                                            <div class="block courseitem course2" data-id="1260">
-	                                                <div class="block_media"><a href="./course-detail/home?id=6"><img width="300" height="180" src="wp-content/uploads/2014/02/softwaretraining1-460x276.jpg" class="attachment-medium size-medium wp-post-image" alt="softwaretraining" sizes="(max-width: 300px) 100vw, 300px"></a></div><div class="block_content">
-	                                                    <h4 class="block_title"><a href="./course-detail/home?id=6" title="Idioms, Sayings and Slang">Idioms, Sayings and Slang</a></h4><div class="star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>(&nbsp;4&nbsp;REVIEWS&nbsp;)</div><strong><i class="fa fa-users"></i>&nbsp;3</strong><span class="clear"></span><div class="instructor_course">
-	                                                        <div class="item-avatar"><img src="./image/blank_avt.png" onerror="this.onerror=null;this.src='./image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo"></div>
-	                                                        <h5 class="course_instructor">
-	                                                            <a href="./userInfo/1">Quang Phuong<span>English</span></a>
-	                                                        </h5>
-	                                                    </div><strong><del><span class="amount">£29.00</span></del> <ins><span class="amount">£19.00</span></ins><span class="subs"> per  month</span></strong>
-	                                                </div>
-	                                            </div>
-                                    </li>
-                                </ul>
+
+                                    <div id="item-header-content">
+                                        <span class="highlight"><a href="course-cat/technology/index.html">English</a></span>
+                                        <h3><a href="#inline" title="${course.name}">${course.name}</a></h3>
+
+
+                                        <div id="item-meta">
+                                            <strong class="course-star-rating">
+                                                <i class="hide">4.3</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>
+                                            </strong><strong>( 4 REVIEWS )</strong> <div class="students"> ${course.studentCount} STUDENTS</div>
+                                            <div itemscope itemtype="http://schema.org/Product">
+                                                <meta itemprop="brand" content="WPLMS" />
+                                                <meta itemprop="name" content="Software Training" />
+                                                <meta itemprop="description" content="Fusce in purus rutrum, tristique metus sed, laoreet mi. Nullam nec mauris in lorem blandit vehicula. Nulla felis lectus, luctus &hellip;" />
+                                                <meta itemprop="image" content="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1.jpg" />
+                                                <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                                                    <meta itemprop="ratingValue" content="4.3" /> <meta itemprop="reviewCount" content="4" />
+                                                </span>
+                                                <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                                                    <meta itemprop="price" content="19" />
+                                                    <meta itemprop="priceCurrency" content="GBP" />
+                                                </span>
+                                            </div>
+
+
+                                        </div>
+                                    </div><!-- #item-header-content -->
+
+                                    <div id="item-admins">
+
+                                        <h3>Instructors</h3>
+                                        <div class="instructor_course">
+                                            <div class="item-avatar"><img src="../${course.teacherAvatar}" onError="this.onerror=null;this.src='.././image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo" /></div>
+                                            <h5 class="course_instructor">
+                                                <a href="${course.teacherId}">${course.teacherFirstName} ${course.teacherLastName}<span>English</span></a>
+                                            </h5>
+                                        </div>
+                                    </div><!-- #item-actions -->
+
+
+                                </div><!-- #item-header -->
+
+                                <div id="item-nav">
+                                    <div class="item-list-tabs no-ajax" id="object-nav" role="navigation">
+                                        <ul>
+                                            <li id="home" class="current"><a href="index.html">Home</a></li>
+                                            <li id="lessons"><a href="curriculum/index.html">Lessons</a></li>
+                                            <li id="quiz"><a href="members/index.html">Quiz</a></li>
+                                            <li id="topic"><a href="activity/index.html">Topics</a></li>
+                                            <li id="member"><a href="members/index.html">Member</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- #item-nav -->
                             </div>
-                        </div>
-                    </div>
-                    <!-- End Stripestripe_container fullwidth -->
-                </div>
-            </section>
-	<!--  -->
+                            <div class="col-md-6 col-sm-6">
+                                <div id="item-body">
+                                    <div class="students_undertaking">
+                                        <strong>${course.studentCount} STUDENTS ENROLLED</strong>
+                                        <ul>
+	                                        <c:if test="${not empty sampleStudent}">
+	                                        	<c:forEach items="${sampleStudent}" var="student">
+	                                        		<li><a href="../userInfo/${student.userId}"><img src="../${student.avatar}" onError="this.onerror=null;this.src='../image/blank_avt.png';" class="avatar user-3-avatar avatar-96 photo" width="96" height="96" alt="${student.firstname} ${student.lastname}" /></a></li>
+	                                        	</c:forEach>
+	                                        </c:if>
+                                        </ul>
+                                    </div>
+                                    <div class="course_description" itemprop="description">
+                                        <div class="small_desc">
+                                            <p>${course.description}</p>
+                                            <a href="#" id="more_desc" class="link" data-middle="1198">READ MORE</a>
+                                        </div>
+                                        <!-- <div class="full_desc">
+                                            <p> magna, volutpat quis suscipit vitae, semper id sem.</p>
+                                            <p>&#038;nbsp</p>
+                                            <a href="#" id="less_desc" class="link">LESS</a>
+                                        </div> -->
+                                    </div>
 
-    <footer>
+                                    <div class="course_reviews">
+                                        <h3 class="heading">Course Reviews</h3>
+                                        <div class="review_breakup">
+                                            <div class="col-md-6">
+                                                <div class="rating_snapshot">
+                                                    <h2>4.3</h2>
+                                                    <div class="modern-star-rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span></div><span>4 ratings</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="rating_breakup">
+                                                    <li><span>1 stars</span><strong><span style="width:0%">0</span></strong></li>
+                                                    <li><span>2 stars</span><strong><span style="width:0%">0</span></strong></li>
+                                                    <li><span>3 stars</span><strong><span style="width:20%">1</span></strong></li>
+                                                    <li><span>4 stars</span><strong><span style="width:20%">1</span></strong></li>
+                                                    <li><span>5 stars</span><strong><span style="width:40%">2</span></strong></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="show_course_reviews">
+
+                                            <ol class="reviewlist commentlist">
+                                                <li class="comment even thread-even depth-1" id="li-comment-16">
+                                                    <div id="comment-16" class="comment-body">
+                                                        <div class="comment-body-inner">
+                                                            <div class="comment-avatar">
+                                                                <img alt='' src='../http://2.gravatar.com/avatar/e349c443e6ee646659ad4bc0673edbd8?s=120&amp;d=mm&amp;r=g' srcset='http://2.gravatar.com/avatar/e349c443e6ee646659ad4bc0673edbd8?s=240&amp;d=mm&amp;r=g 2x' class='retina_avatar zoom animate avatar-120 photo' height='120' width='120' />
+                                                            </div><!-- END avatar -->
+                                                            <div class="comment-body-content">
+                                                                <div class="comment-meta">
+                                                                    Betty Adams<a href="index.html#comment-16">February 5, 2014 at 7:04 am</a><a rel="nofollow" class="comment-reply-login" href="wp-logine035.html?redirect_to=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2Fcourse%2Fsoftware-training%2F">Log in to Reply</a>
+                                                                </div><!-- END comment-author vcard -->
+                                                                <div class="comment-text">
+                                                                    <h3>This was a good course</h3><div class="course-star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span><span></span></div><p>
+                                                                        Overall a nice course. Highly Recommended. Instructor is great and forums , groups gave a great discussion platform.<br />
+                                                                        Thanks wplms for providing such a platform.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                </li><!-- #comment-## -->
+                                                <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-17">
+                                                    <div id="comment-17" class="comment-body">
+                                                        <div class="comment-body-inner">
+                                                            <div class="comment-avatar">
+                                                                <img alt='' src='../http://1.gravatar.com/avatar/7aedbb11e1385c2afb59020385837f82?s=120&amp;d=mm&amp;r=g' srcset='http://1.gravatar.com/avatar/7aedbb11e1385c2afb59020385837f82?s=240&amp;d=mm&amp;r=g 2x' class='retina_avatar zoom animate avatar-120 photo' height='120' width='120' />
+                                                            </div><!-- END avatar -->
+                                                            <div class="comment-body-content">
+                                                                <div class="comment-meta">
+                                                                    Shishir<a href="index.html#comment-17">February 19, 2014 at 6:17 am</a><a rel="nofollow" class="comment-reply-login" href="wp-logine035.html?redirect_to=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2Fcourse%2Fsoftware-training%2F">Log in to Reply</a>
+                                                                </div><!-- END comment-author vcard -->
+                                                                <div class="comment-text">
+                                                                    <h3>Best</h3><div class="course-star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span></div><p>
+                                                                        Overall a nice course. Highly Recommended. Instructor is great and forums , groups gave a great discussion platform.<br />
+                                                                        Thanks wplms for providing such a platform.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                </li><!-- #comment-## -->
+                                                <li class="comment byuser comment-author-megha even thread-even depth-1" id="li-comment-436">
+                                                    <div id="comment-436" class="comment-body">
+                                                        <div class="comment-body-inner">
+                                                            <div class="comment-avatar">
+                                                                <img src="../wp-content/uploads/2016/02/student_college-460x307.jpg" class="avatar user-2-avatar avatar-120 photo" width="120" height="120" alt="Profile photo of megha" />
+                                                            </div><!-- END avatar -->
+                                                            <div class="comment-body-content">
+                                                                <div class="comment-meta">
+                                                                    <a href='../members/megha/index.html' rel='external nofollow' class='url'>megha</a><a href="index.html#comment-436">September 1, 2015 at 5:48 am</a><a rel="nofollow" class="comment-reply-login" href="wp-logine035.html?redirect_to=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2Fcourse%2Fsoftware-training%2F">Log in to Reply</a>
+                                                                </div><!-- END comment-author vcard -->
+                                                                <div class="comment-text">
+                                                                    <h3>wplms</h3><div class="course-star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span></div><p>Best Lms ever!</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                </li><!-- #comment-## -->
+                                                <li class="comment byuser comment-author-aa odd alt thread-odd thread-alt depth-1" id="li-comment-760">
+                                                    <div id="comment-760" class="comment-body">
+                                                        <div class="comment-body-inner">
+                                                            <div class="comment-avatar">
+                                                                <img src="../wp-content/uploads/2016/02/student_college-460x307.jpg" class="avatar user-304-avatar avatar-120 photo" width="120" height="120" alt="Profile photo of asdfasd" />
+                                                            </div><!-- END avatar -->
+                                                            <div class="comment-body-content">
+                                                                <div class="comment-meta">
+                                                                    <a href='../members/aa/index.html' rel='external nofollow' class='url'>asdfasd</a><a href="index.html#comment-760">November 7, 2015 at 11:19 am</a><a rel="nofollow" class="comment-reply-login" href="wp-logine035.html?redirect_to=http%3A%2F%2Fthemes.vibethemes.com%2Fwplms%2Fskins%2Fdefault%2Fcourse%2Fsoftware-training%2F">Log in to Reply</a>
+                                                                </div><!-- END comment-author vcard -->
+                                                                <div class="comment-text">
+                                                                    <h3></h3><div class="course-star-rating"><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span></div><p>Software traning Review</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                </li><!-- #comment-## -->
+
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- #item-body -->
+
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="widget pricing">
+                                    <a href="#inline" class="course_button full button">TAKE THIS COURSE</a>
+
+
+                                    <div class="widget buddypress widget">
+                                        <h4 class="widget_title">Instructor Details</h4><div class="course_instructor_widget">
+                                            <div class="instructor_course">
+                                                <div class="item-avatar"><img src="../userInfo/${course.teacherId}" onError="this.onerror=null;this.src='.././image/blank_avt.png';" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="Profile Photo" /></div>
+
+                                                <h5 class="course_instructor">
+                                                    <a href="../userInfo/${course.teacherId}">${course.teacherFirstName} ${course.teacherLastName}<span>English</span></a>
+                                                </h5>
+                                            </div><div class="description"></div><a href="author/-4/instructing-courses.html" class="tip" title="Check all Courses created by Eddard Stark"><i class="icon-plus-1"></i></a><h5>More Courses by Eddard Stark</h5>
+                                            <ul class="widget_course_list">
+                                            <c:if test="${not empty suggestCourse}">
+                                                	<c:forEach items="${suggestCourse}" var="suggestItem">
+                                            	      <li><a href="../course-detail/home?id=${suggestItem.id}"><img width="150" height="150" src="../wp-content/uploads/2014/02/softwaretraining1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="softwaretraining" sizes="(max-width: 150px) 100vw, 150px"><h6>${suggestItem.name}<span>by ${suggestItem.teacherFirstName} ${suggestItem.teacherLastName}</span></h6></a></li>
+                                            		</c:forEach>
+                                            </c:if>
+                                            </ul>
+                                        </div>
+                                    </div>	<div class="widget buddypress widget">
+                                        <h4 class="widget_title">Advanced Course Search Widget</h4><form role="search" method="get" id="searchform" action="http://themes.vibethemes.com/wplms/skins/default/">
+                                            <input type="hidden" name="post_type" value="course" />
+                                            <ul>
+                                                <li>
+                                                    <select name="course-cat" class="chosen chzn-select">
+                                                        <option value="">Select Course Category</option>
+                                                        <option value="business">Business</option>
+                                                        <option value="language">Language</option>
+                                                    </select>
+                                                </li>
+                                                <li><select name="instructor" class="chosen chzn-select"><option value="">Select Instructor</option><option value="1">الزمن الجميل</option><option value="8">Alex</option><option value="9">John</option></select></li>
+                                                <li><input type="text" value="" name="s" id="s" placeholder="Type Keywords.." /></li>
+                                                <li><input type="submit" id="searchsubmit" value="Search" /></li>
+                                            </ul>
+                                        </form>
+                                    </div>	<div class="widget buddypress widget">
+                                        <h4 class="widget_title">Popular Courses</h4><div class="widget_carousel flexslider  no-ajax">
+                                            <ul class="slides">
+                                                <li>
+                                                
+                                                
+                                                </li>
+                                              
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .padder -->
+
+                        </div><!-- #container -->
+                    </div>
+            </section>
+             <footer>
         <div class="container">
             <div class="row">
                 <div class="footertop">
@@ -723,11 +796,11 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div><!-- END PUSHER -->
+    </div>	
+        </div><!-- END PUSHER -->
     </div><!-- END MAIN -->
     <!-- SCRIPTS -->
-    <!-- Generated in 1.613 seconds. (218 q) -->
+    <!-- Generated in 1.703 seconds. (220 q) -->
 
     <script type="text/javascript">
         /*<![CDATA[*/
@@ -838,59 +911,60 @@
             });
         });
     </script>
-    <link rel='stylesheet' id='eventon_dynamic_styles-css' href='wp-content/plugins/eventON/assets/css/eventon_dynamic_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <script type='text/javascript' src='wp-content/plugins/bbpress/templates/default/js/editore4d2.js?ver=2.5.8-5815'></script>
+    <link rel='stylesheet' id='eventon_dynamic_styles-css' href='../wp-content/plugins/eventON/assets/css/eventon_dynamic_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <script type='text/javascript' src='../wp-content/plugins/bbpress/templates/default/js/editore4d2.js?ver=2.5.8-5815'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var mejsL10n = { "language": "en-US", "strings": { "Close": "Close", "Fullscreen": "Fullscreen", "Download File": "Download File", "Download Video": "Download Video", "Play\/Pause": "Play\/Pause", "Mute Toggle": "Mute Toggle", "None": "None", "Turn off Fullscreen": "Turn off Fullscreen", "Go Fullscreen": "Go Fullscreen", "Unmute": "Unmute", "Mute": "Mute", "Captions\/Subtitles": "Captions\/Subtitles" } };
         var _wpmejsSettings = { "pluginPath": "\/wplms\/skins\/default\/wp-includes\/js\/mediaelement\/" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-and-player.mineb0c.js?ver=2.18.1'></script>
-    <script type='text/javascript' src='wp-includes/js/thickbox/thickboxab87.js?ver=3.1-20121105'></script>
+    <script type='text/javascript' src='../wp-includes/js/mediaelement/mediaelement-and-player.mineb0c.js?ver=2.18.1'></script>
+
+    <script type='text/javascript' src='../wp-includes/js/thickbox/thickboxab87.js?ver=3.1-20121105'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var vibe_shortcode_strings = { "sending_mail": "Sending mail", "error_string": "Error :", "invalid_string": "Invalid ", "captcha_mismatch": "Captcha Mismatch" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/vibe-shortcodes/js/shortcodes5152.js?ver=1.0'></script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+    <script type='text/javascript' src='../wp-content/plugins/vibe-shortcodes/js/shortcodes5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
-        var woocommerce_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/?wc-ajax=%%endpoint%%" };
+        var woocommerce_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/course\/software-training\/?wc-ajax=%%endpoint%%" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min16b9.js?ver=2.5.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
-        var wc_cart_fragments_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/?wc-ajax=%%endpoint%%", "fragment_name": "wc_fragments" };
+        var wc_cart_fragments_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/course\/software-training\/?wc-ajax=%%endpoint%%", "fragment_name": "wc_fragments" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/vibe-course-module/includes/js/course-module-js.min6734.js?ver=1.9.9'></script>
-    <script type='text/javascript' src='wp-includes/js/mediaelement/wp-mediaelementc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min16b9.js?ver=2.5.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/vibe-course-module/includes/js/course-module-js.min6734.js?ver=1.9.9'></script>
+    <script type='text/javascript' src='../wp-includes/js/mediaelement/wp-mediaelementc1f9.js?ver=4.4.2'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var BP_DTheme = { "accepted": "Accepted", "close": "Close", "comments": "comments", "leave_group_confirm": "Are you sure you want to leave this group?", "mark_as_fav": "Favorite", "my_favs": "My Favorites", "rejected": "Rejected", "remove_fav": "Remove Favorite", "show_all": "Show all", "show_all_comments": "Show all comments for this thread", "show_x_comments": "Show all %d comments", "unsaved_changes": "Your profile has unsaved changes. If you leave the page, the changes will be lost.", "view": "View", "too_short": "Too short", "weak": "Weak", "good": "Good", "strong": "Strong" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/themes/wplms/assets/js/old_files/buddypressd5f7.js?ver=2.0'></script>
+    <script type='text/javascript' src='../wp-content/themes/wplms/assets/js/old_files/buddypressd5f7.js?ver=2.0'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var vibe_course_module_strings = { "too_fast_answer": "Too Fast or Answer not marked.", "answer_saved": "Answer Saved.", "processing": "Processing...", "saving_answer": "Saving Answer...please wait", "remove_user_text": "This step is irreversible. Are you sure you want to remove the User from the course ?", "remove_user_button": "Confirm, Remove User from Course", "confirm": "Confirm", "cancel": "Cancel", "reset_user_text": "This step is irreversible. All Units, Quiz results would be reset for this user. Are you sure you want to Reset the Course for this User?", "reset_user_button": "Confirm, Reset Course for this User", "quiz_reset": "This step is irreversible. All Questions answers would be reset for this user. Are you sure you want to Reset the Quiz for this User? ", "quiz_reset_button": "Confirm, Reset Quiz for this User", "marks_saved": "Marks Saved", "quiz_marks_saved": "Quiz Marks Saved", "submit_quiz": "Submit Quiz", "sending_messages": "Sending Messages ...", "adding_students": "Adding Students to Course ...", "successfuly_added_students": "Students successfully added to Course", "unable_add_students": "Unable to Add students to Course", "select_fields": "Please select fields to download", "download": "Download", "timeout": "TIMEOUT", "theme_color": "#78c8c9", "single_dark_color": "#232b2d", "for_course": "for Course", "active_filters": "Active Filters", "clear_filters": "Clear all filters", "remove_comment": "Are you sure you want to remove this note?", "remove_comment_button": "Confirm, remove note", "private_comment": "Make Private", "add_comment": "Add your note", "submit_quiz_error": "Please add questions or retake the quiz !", "remove_announcement": "Are you sure you want to remove this Annoucement?", "start_quiz_notification": "You're about to start the Quiz. Please click confirm to begin the quiz.", "submit_quiz_notification": "Are you sure you want to submit the quiz. Submitting the quiz will freeze all your answers, you can not change them.  Please confirm.", "check_results": "Check results", "correct": "Correct", "incorrect": "Incorrect", "confirm_apply": "Are you sure you want to apply for this Course ?", "instructor_uncomplete_unit": "Are you sure you want mark this unit \"uncomplete\" for the user ?", "instructor_complete_unit": "Are you sure you want to mark this unit \"complete\" for the user ?", "unanswered_questions": "You have few unanswered questions. Are you sure you want to continue ?" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/vibe-course-module/includes/js/course6734.js?ver=1.9.9'></script>
-    <script type='text/javascript' src='wp-includes/js/wp-embed.minc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/vibe-course-module/includes/js/course6734.js?ver=1.9.9'></script>
+    <script type='text/javascript' src='../wp-includes/js/wp-embed.minc1f9.js?ver=4.4.2'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wplms = { "more": "More", "view_more": "View More", "menu": "Menu", "wplms_woocommerce_validate": "Please fill in all the required fields (indicated by *)", "open_menu": "Open\/Close Menu" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/themes/wplms/assets/js/wplms.minc1f9.js?ver=4.4.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/jquery.mousewheel.min7140.js?ver=0.31'></script>
-    <script type='text/javascript' src='wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_script7140.js?ver=0.31'></script>
+    <script type='text/javascript' src='../wp-content/themes/wplms/assets/js/wplms.minc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/jquery.mousewheel.min7140.js?ver=0.31'></script>
+    <script type='text/javascript' src='../wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_script7140.js?ver=0.31'></script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -901,7 +975,6 @@
         ga('create', 'UA-9756284-1', 'auto');
         ga('send', 'pageview');
     </script>
-
-
 </body>
+<!-- Mirrored from themes.vibethemes.com/wplms/skins/default/course/software-training/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2016 05:59:07 GMT -->
 </html>

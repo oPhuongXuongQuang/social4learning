@@ -3,11 +3,13 @@ package com.fu.social4learning.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Repository;
 
+import com.fu.social4learning.dto.ConvParticipant;
 import com.fu.social4learning.dto.CourseParticipant;
 import com.fu.social4learning.dto.CourseParticipantId;
 
@@ -68,5 +70,22 @@ public class CourseParticipantDAO {
 			log.error("get failed", re);
 			throw re;
 		}
+	}
+	
+	public Integer findFirstTeacher(int courseId) {
+		log.debug("getting Course instance with id: " + courseId);
+		try {
+			TypedQuery<CourseParticipant> query = entityManager.createNamedQuery("findTeacher",CourseParticipant.class).setMaxResults(1);
+			query.setParameter("courseId", courseId);
+			CourseParticipant result = query.getSingleResult();
+			if(result != null){
+				return result.getId().getUserId();
+			}
+			
+		} catch (RuntimeException re) {
+			log.error("get failed", re);
+			throw re;
+		}
+		return null;
 	}
 }

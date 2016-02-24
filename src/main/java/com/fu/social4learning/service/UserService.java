@@ -6,4 +6,5 @@ public interface UserService {
 	public void createUser(User user);
 	public boolean checkUserExist(User user);
 	public User getUserInfo(String email);
+	public User getUserInfoById(Integer id);
 }

@@ -23,10 +23,19 @@ public class UserServiceImpl implements UserService{
 		// TODO Auto-generated method stub
 		return userDAO.userExist(user);
 	}
-
+	
+	@Override
 	public User getUserInfo(String email) {
 		// TODO Auto-generated method stub
-		return userDAO.getUserInfo(email);
+		User user = userDAO.getUserInfo(email);
+		user.setPassword("");
+		return user;
+	}
+
+	@Override
+	public User getUserInfoById(Integer id) {
+		// TODO Auto-generated method stub
+		return userDAO.findById(id);
 	}
 
 }

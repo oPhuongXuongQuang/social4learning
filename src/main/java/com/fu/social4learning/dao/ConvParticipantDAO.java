@@ -1,8 +1,11 @@
 package com.fu.social4learning.dao;
 // Generated Feb 12, 2016 9:50:33 PM by Hibernate Tools 4.3.1.Final
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -10,6 +13,7 @@ import org.springframework.stereotype.Repository;
 
 import com.fu.social4learning.dto.ConvParticipant;
 import com.fu.social4learning.dto.ConvParticipantId;
+import com.fu.social4learning.dto.Course;
 
 /**
  * Home object for domain model class ConvParticipant.
@@ -54,18 +58,6 @@ public class ConvParticipantDAO {
 			return result;
 		} catch (RuntimeException re) {
 			log.error("merge failed", re);
-			throw re;
-		}
-	}
-
-	public ConvParticipant findById(ConvParticipantId id) {
-		log.debug("getting ConvParticipant instance with id: " + id);
-		try {
-			ConvParticipant instance = entityManager.find(ConvParticipant.class, id);
-			log.debug("get successful");
-			return instance;
-		} catch (RuntimeException re) {
-			log.error("get failed", re);
 			throw re;
 		}
 	}

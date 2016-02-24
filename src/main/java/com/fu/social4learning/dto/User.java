@@ -1,11 +1,13 @@
 package com.fu.social4learning.dto;
 // Generated Feb 12, 2016 9:50:55 PM by Hibernate Tools 4.3.1.Final
 
+import static javax.persistence.GenerationType.IDENTITY;
+
 import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import static javax.persistence.GenerationType.IDENTITY;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -36,8 +38,14 @@ public class User implements java.io.Serializable {
 	private Date createTime;
 	private String avatar;
 	private String password;
+	private Float averageGrade;
 
 	public User() {
+	}
+	
+	public User(Integer id, String firstname) {
+		this.id = id;
+		this.firstname = firstname;
 	}
 
 	public User(String email, String firstname, String lastname, Date createTime) {
@@ -161,5 +169,14 @@ public class User implements java.io.Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	@Column(name = "averageGrade")
+	public Float getAverageGrade() {
+		return averageGrade;
+	}
+
+	public void setAverageGrade(Float averageGrade) {
+		this.averageGrade = averageGrade;
 	}
 }

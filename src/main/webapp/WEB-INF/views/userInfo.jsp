@@ -43,45 +43,45 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='layerslider-css' href='wp-content/plugins/LayerSlider/static/css/layersliderdeba.css?ver=5.5.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='bbp-default-css' href='wp-content/plugins/bbpress/templates/default/css/bbpresse4d2.css?ver=2.5.8-5815' type='text/css' media='screen' />
-    <link rel='stylesheet' id='wplms-customizer-css-css' href='wp-content/plugins/wplms-customizer/css/customc1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='bp-course-css-css' href='wp-content/plugins/vibe-course-module/includes/css/course_templatec1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='google-webfonts-css' href='http://fonts.googleapis.com/css?family=Open+Sans:regular|Raleway:regular|&amp;subsets=latin' type='text/css' media='all' />
-    <link rel='stylesheet' id='bbpress-css-css' href='wp-content/themes/wplms/assets/css/bbpress.min7406.css?ver=2.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-css-css' href='wp-content/themes/wplms/assets/css/woocommerce.min7406.css?ver=2.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='wplms-style-css' href='wp-content/themes/wplms/assets/css/style.min7406.css?ver=2.0.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='evcal_google_fonts-css' href='http://fonts.googleapis.com/css?family=Oswald%3A400%2C300%7COpen+Sans%3A400%2C300&amp;ver=4.4.2' type='text/css' media='screen' />
-    <link rel='stylesheet' id='evcal_cal_default-css' href='wp-content/plugins/eventON/assets/css/eventon_stylese62b.css?ver=2.3.15' type='text/css' media='all' />
-    <link rel='stylesheet' id='evo_font_icons-css' href='wp-content/plugins/eventON/assets/fonts/font-awesomec1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='evo_dv_styles-css' href='wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/greensockcd11.js?ver=1.11.8'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
-    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquerydeba.js?ver=5.5.0'></script>
-    <script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.transitionsdeba.js?ver=5.5.0'></script>
+    <link rel='stylesheet' id='layerslider-css' href='../wp-content/plugins/LayerSlider/static/css/layersliderdeba.css?ver=5.5.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='bbp-default-css' href='../wp-content/plugins/bbpress/templates/default/css/bbpresse4d2.css?ver=2.5.8-5815' type='text/css' media='screen' />
+    <link rel='stylesheet' id='wplms-customizer-css-css' href='../wp-content/plugins/wplms-customizer/css/customc1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='bp-course-css-css' href='../wp-content/plugins/vibe-course-module/includes/css/course_templatec1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-webfonts-css' href='../http://fonts.googleapis.com/css?family=Open+Sans:regular|Raleway:regular|&amp;subsets=latin' type='text/css' media='all' />
+    <link rel='stylesheet' id='bbpress-css-css' href='../wp-content/themes/wplms/assets/css/bbpress.min7406.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-css-css' href='../wp-content/themes/wplms/assets/css/woocommerce.min7406.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='wplms-style-css' href='../wp-content/themes/wplms/assets/css/style.min7406.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='evcal_google_fonts-css' href='../http://fonts.googleapis.com/css?family=Oswald%3A400%2C300%7COpen+Sans%3A400%2C300&amp;ver=4.4.2' type='text/css' media='screen' />
+    <link rel='stylesheet' id='evcal_cal_default-css' href='../wp-content/plugins/eventON/assets/css/eventon_stylese62b.css?ver=2.3.15' type='text/css' media='all' />
+    <link rel='stylesheet' id='evo_font_icons-css' href='../wp-content/plugins/eventON/assets/fonts/font-awesomec1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='evo_dv_styles-css' href='../wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/greensockcd11.js?ver=1.11.8'></script>
+    <script type='text/javascript' src='../wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
+    <script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquerydeba.js?ver=5.5.0'></script>
+    <script type='text/javascript' src='../wp-content/plugins/LayerSlider/static/js/layerslider.transitionsdeba.js?ver=5.5.0'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var BP_Confirm = { "are_you_sure": "Are you sure?" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/confirm.minb2da.js?ver=2.4.3'></script>
+    <script type='text/javascript' src='../wp-content/plugins/buddypress/bp-core/js/confirm.minb2da.js?ver=2.4.3'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wc_add_to_cart_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View Cart", "cart_url": "http:\/\/themes.vibethemes.com\/wplms\/skins\/default\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/wplms-customizer/js/customc1f9.js?ver=4.4.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart83b6.js?ver=4.6.2'></script>
-    <script type='text/javascript' src='wp-content/themes/wplms/assets/js/old_files/nprogress7406.js?ver=2.0.1'></script>
-    <link rel='https://api.w.org/' href='wp-json/index.html' />
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min16b9.js?ver=2.5.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/wplms-customizer/js/customc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart83b6.js?ver=4.6.2'></script>
+    <script type='text/javascript' src='../wp-content/themes/wplms/assets/js/old_files/nprogress7406.js?ver=2.0.1'></script>
+    <link rel='https://api.w.org/' href='../wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 4.4.2" />
     <meta name="generator" content="WooCommerce 2.5.2" />
     <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='index.html' />
+    <link rel='shortlink' href='../index.html' />
 
     <script type="text/javascript">var ajaxurl = 'wp-admin/admin-ajax.html';</script>
 
@@ -161,7 +161,7 @@
     <div class="pagesidebar">
         <div class="sidebarcontent">
             <h2 id="sidelogo">
-                <a href="./"><img src="wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
+                <a href="../"><img src="../wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
             </h2>
             <ul id="menu-mobilemenu" class="sidemenu">
                 <li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1427 current_page_item menu-item-2013"><a href="index.html">Home</a></li>
@@ -177,37 +177,74 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-3 col-xs-4">
-                        <a href="./" class="homeicon"><img src="wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
+                        <a href="../" class="homeicon"><img src="../wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
                     </div>
                     <div class="col-md-8 col-sm-9 col-xs-8">
                         <ul class="topmenu">
-                            <li><a href="#login" class="smallimg vbplogin">Login</a></li>
-                            <li><a href="register/index.html" class="vbpregister" title="Create an account">Sign Up</a>                             </li>
+                            <li>
+	                            <c:choose>
+	                            	<c:when test="${userSession != null}">
+	                            		<a href="" class="smallimg vbplogin">
+			                            <em></em>
+			                            <img src="${userSession.avatar}" class="avatar user-732-avatar avatar-460 photo" onError="this.onerror=null;this.src='../image/blank_avt.png';"
+			                            alt="Profile picture of ${userSession.firstname} ${userSession.lastname}">
+			                            ${userSession.firstname} ${userSession.lastname}</a>
+	                            	</c:when>
+	                            	<c:when test="${userSession == null }">
+	                            		<li><a href="login" class="smallimg vbplogin">Login</a></li>
+	                            		<li><a href="register" class="vbpregister" title="Create an account">Sign Up</a></li>
+	                            	</c:when>
+	                            </c:choose>
+                            </li>
                         </ul>
                        
                     </div>
                     <div id="vibe_bp_login" class="default_login">
-                        <form name="login-form" id="vbp-login-form" class="standard-form" action="http://themes.vibethemes.com/wplms/skins/default/wp-login.php" method="post">
-                            <label>
-                                Username<br />
-                                <input type="text" name="log" id="side-user-login" class="input" tabindex="1" value="" />
-                            </label>
-
-                            <label>
-                                Password <a href="wp-login0da1.html?action=lostpassword&amp;redirect_to=http://themes.vibethemes.com/wplms/skins/default/" tabindex="5" class="tip" title="Forgot Password"><i class="icon-question"></i></a><br />
-                                <input type="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" />
-                            </label>
-
-                            <div class="checkbox small">
-                                <input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme">Remember Me</label>
-                            </div>
-
-                            <input type="submit" name="user-submit" id="sidebar-wp-submit" value="Log In" tabindex="100" />
-                            <input type="hidden" name="user-cookie" value="1" />
-                            <a href="register/index.html" class="vbpregister" title="Create an account" tabindex="5">Sign Up</a>
-                        </form>
-
-
+                    	
+                    	<c:choose>
+                    		<c:when test="${userSession != null}">
+							                        <div id="sidebar-me">
+							      <div id="bpavatar">
+							        <img src="${userSession.avatar}" onError="this.onerror=null;this.src='../image/blank_avt.png';" class="avatar user-732-avatar avatar-460 photo" alt="Profile picture of Quang Phương">
+							        </div>
+							      <ul>
+							        <li id="username"><a href="../userInfo/${userSession.id}">${userSession.firstname} ${userSession.lastname}</a></li>
+							        <li><a href="../userInfo/${USER.id}" title="View profile">View profile</a></li>
+							        <li id="vbplogout"><a href="../logout" id="destroy-sessions" rel="nofollow" class="logout" title="Log Out"><i class="icon-close-off-2"></i> LOGOUT</a></li>
+							        <li id="admin_panel_icon">        </li>
+							      </ul> 
+							      <ul>
+							    <li><a href="userInfo"><i class="icon-meter"></i>Dashboard</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/course"><i class="icon-book-open-1"></i>Courses</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/course/course-stats"><i class="icon-analytics-chart-graph"></i>Stats</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/messages"><i class="icon-letter-mail-1"></i>Inbox</a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/notifications"><i class="icon-exclamation"></i>Notifications <span>1</span></a></li>
+							    <li><a href="http://themes.vibethemes.com/wplms/skins/default/members/quang/settings"><i class="icon-settings"></i>Settings</a></li>
+							          </ul>
+							    
+							        </div>
+                    		</c:when>
+                    		<c:when test="${userSession == null}">
+                    			<form:form name="login-form" id="vbp-login-form" class="standard-form" action="../login" method="post" commandName="user">
+		                            <label>
+		                                Email<br />
+		                                <form:input type="text" name="log" path="email" id="side-user-login" class="input" tabindex="1" value="" />
+		                            </label>
+		
+		                            <label>
+		                                Password <a href="wp-login0da1.html?action=lostpassword&amp;redirect_to=http://themes.vibethemes.com/wplms/skins/default/" tabindex="5" class="tip" title="Forgot Password"><i class="icon-question"></i></a><br />
+		                                <form:input type="password" path="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" />
+		                            </label>
+		
+		                            <div class="checkbox small">
+		                                <input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme">Remember Me</label>
+		                            </div>
+		
+		                            <input type="submit" name="user-submit" id="sidebar-wp-submit" value="Log In" tabindex="100" />
+		                            <a href="register" class="vbpregister" title="Create an account" tabindex="5">Sign Up</a>
+		                        </form:form>
+                        
+                        
                         <div class="bp_social_connect">
                             <div id="fb-root" class="bp_social_connect_fb"></div>
                             <script type="text/javascript">
@@ -287,6 +324,12 @@
                             <a class="bp_social_connect_facebook" href="javascript:void(0)">FACEBOOK</a><br />
                         </div>
 
+                        
+                    		</c:when>
+                    	</c:choose>
+                    	
+                        
+
 
                         <style>
                             #bp_social_connect_facebook:before {
@@ -314,18 +357,19 @@
                 </div>
             </div>
         </div>
+
         <header>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-4">
                         <h2 id="logo">
-                            <a href="./"><img src="wp-content/themes/wplms/assets/images/logo.png" data-alt-logo="http://themes.vibethemes.com/wplms/skins/default/wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
+                            <a href="../"><img src="../wp-content/themes/wplms/assets/images/logo.png" data-alt-logo="http://themes.vibethemes.com/wplms/skins/default/wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a>
                         </h2>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-8">
                         <div id="searchicon"><i class="icon-search-2"></i></div>
                         <div id="searchdiv">
-                            <form role="search" method="get" id="searchform" action="http://themes.vibethemes.com/wplms/skins/default/">
+                            <form role="search" method="get" id="searchform" action="../search">
                                 <div>
                                     <label class="screen-reader-text" for="s">Search for:</label>
                                     <input type="text" value="" name="s" id="s" placeholder="Hit enter to search..." />
@@ -353,9 +397,11 @@
                                 <li id="main-menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                                     <a href="all-courses/index.html"><strong>Instructors</strong></a>
                                 </li>
-                                <li id="main-menu-item-2029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                    <a href="./login.html"><strong>Create courses (after login)</strong></a>
-                                </li>
+                                <c:if test="${USER != null}">
+                                    <li id="main-menu-item-2029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                        <a href="../login.html"><strong>Create courses</strong></a>
+                                    </li>
+                                </c:if>
                                 <li id="main-menu-item-2027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                                     <a href="page-builder-page/index.html"><strong>Help</strong></a>
                                     <ul class="sub-menu">
@@ -385,7 +431,7 @@
 
                                         <div id="item-header-avatar">
                                             <a href="index.html">
-                                                <img src="${USER.avatar}" class="avatar user-1-avatar avatar-460 photo" onError="this.onerror=null;this.src='image/blank_avt.png';" width="460" height="460" alt="Profile picture of ${USER.firstname}"/>
+                                                <img src="../${USER.avatar}" class="avatar user-1-avatar avatar-460 photo" onError="this.onerror=null;this.src='../image/blank_avt.png';" width="460" height="460" alt="Profile picture of ${USER.firstname}"/>
                                             </a>
                                         </div><!-- #item-header-avatar -->
 
@@ -402,13 +448,14 @@
                                                     <h6></h6>
                                                 </div>
 
-
-                                                <div id="center" style=" text-align:center">
-
-                                                    <a href="#"> <img src="image\addFriend.png" height="40px" width="40px" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <a href="#"> <img src="image\sendMes.png" height="40px" width="40px" /></a>
-
-                                                </div><!-- #item-buttons -->
+												<c:if test="${LIMITEDUSER != null}">
+	                                                <div id="center" style=" text-align:center">
+	
+	                                                    <a href="#"> <img src="../image/addFriend.png" height="40px" width="40px" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                                                    <a href="#"> <img src="../image/sendMes.png" height="40px" width="40px" /></a>
+	
+	                                                </div><!-- #item-buttons -->
+                                                </c:if>
 
                                             </div><!-- #item-meta -->
                                         </div><!-- #item-header-content -->
@@ -444,50 +491,156 @@
                                         <div class="profile">
                                             <div class="bp-widget base">
                                                 <h4>User's information</h4>
+                                                <c:if test="${USER != null}">
                                                 <table class="profile-fields">
                                                     <tr class="field_1 field_name required-field visibility-public field_type_textbox">
-                                                        <td class="label">Name</td>
+                                                        <td class="label">First Name</td>
                                                         <td class="data">
-                                                            <p>${USER.firstname }</p>
+                                                            <p>${USER.firstname}</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="field_1 field_name required-field visibility-public field_type_textbox">
+                                                        <td class="label">Last Name</td>
+                                                        <td class="data">
+                                                            <p>${USER.lastname}</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="field_1 field_name required-field visibility-public field_type_textbox">
+                                                        <td class="label">Email</td>
+                                                        <td class="data">
+                                                            <p>${USER.email}</p>
                                                         </td>
                                                     </tr>
                                                     <tr class="field_2 field_location optional-field visibility-public alt field_type_textbox">
                                                         <td class="label">Location</td>
                                                         <td class="data">
-                                                            <p>Winterfell</p>
+                                                            <p>
+                                                            <c:choose>
+                                                            	<c:when test="${USER.address != null}">${USER.address}</c:when>
+                                                            	<c:when test="${USER.address == null}">UNKNOWN</c:when>
+                                                            </c:choose>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="field_2 field_location optional-field visibility-public alt field_type_textbox">
+                                                        <td class="label">Phone number</td>
+                                                        <td class="data">
+                                                            <p>
+                                                            <c:choose>
+                                                            	<c:when test="${USER.phone != null}">${USER.phone}</c:when>
+                                                            	<c:when test="${USER.phone == null}">UNKNOWN</c:when>
+                                                            </c:choose>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
-                                                        <td class="label">Age</td>
+                                                        <td class="label">Birthday</td>
                                                         <td class="data">
-                                                            <p>18</p>
+                                                            <p>
+                                                            <c:choose>
+                                                            	<c:when test="${USER.birth != null}">${USER.birth}</c:when>
+                                                            	<c:when test="${USER.birth == null}">UNKNOWN</c:when>
+                                                            </c:choose>
+                                                            </p>
                                                         </td>
                                                     </tr>
 
                                                     <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
                                                         <td class="label">Gender</td>
                                                         <td class="data">
-                                                            <p>Male</p>
+                                                            <p>
+                                                            <c:choose>
+                                                            	<c:when test="${USER.gender != null}">${USER.gender}</c:when>
+                                                            	<c:when test="${USER.gender == null}">UNKNOWN</c:when>
+                                                            </c:choose>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
                                                         <td class="label">Average grade</td>
                                                         <td class="data">
-                                                            <p>7.4</p>
+                                                            <p>
+                                                            <c:choose>
+                                                            	<c:when test="${USER.averageGrade != null}">${USER.averageGrade}</c:when>
+                                                            	<c:when test="${USER.averageGrade == null}">0.0</c:when>
+                                                            </c:choose>
+                                                            </p>
                                                         </td>
                                                     </tr>
                                                     <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
-                                                        <td class="label">Create date</td>
+                                                        <td class="label">Member from</td>
                                                         <td class="data">
-                                                            <p>17/02/2016</p>
+                                                            <p>${USER.createTime}</p>
                                                         </td>
                                                     </tr>
-
-
-
-
-
                                                 </table>
+                                                </c:if>
+                                            	<c:if test="${LIMITEDUSER != null}">
+                                            		<table class="profile-fields">
+	                                                    <tr class="field_1 field_name required-field visibility-public field_type_textbox">
+	                                                        <td class="label">First Name</td>
+	                                                        <td class="data">
+	                                                            <p>${LIMITEDUSER.firstname}</p>
+	                                                        </td>
+	                                                    </tr>
+	                                                    <tr class="field_1 field_name required-field visibility-public field_type_textbox">
+	                                                        <td class="label">Last Name</td>
+	                                                        <td class="data">
+	                                                            <p>${LIMITEDUSER.lastname}</p>
+	                                                        </td>
+	                                                    </tr>
+	                                                    <tr class="field_2 field_location optional-field visibility-public alt field_type_textbox">
+	                                                        <td class="label">Location</td>
+	                                                        <td class="data">
+	                                                            <p>
+	                                                            <c:choose>
+	                                                            	<c:when test="${LIMITEDUSER.address != null}">${LIMITEDUSER.address}</c:when>
+	                                                            	<c:when test="${LIMITEDUSER.address == null}">UNKNOWN</c:when>
+	                                                            </c:choose>
+	                                                            </p>
+	                                                        </td>
+	                                                    </tr>
+	                                                    <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
+	                                                        <td class="label">Birthday</td>
+	                                                        <td class="data">
+	                                                            <p>
+	                                                            <c:choose>
+	                                                            	<c:when test="${LIMITEDUSER.birth != null}">${LIMITEDUSER.birth}</c:when>
+	                                                            	<c:when test="${LIMITEDUSER.birth == null}">UNKNOWN</c:when>
+	                                                            </c:choose>
+	                                                            </p>
+	                                                        </td>
+	                                                    </tr>
+	                                                    <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
+	                                                        <td class="label">Gender</td>
+	                                                        <td class="data">
+	                                                            <p>
+	                                                            <c:choose>
+	                                                            	<c:when test="${LIMITEDUSER.gender != null}">${LIMITEDUSER.gender}</c:when>
+	                                                            	<c:when test="${LIMITEDUSER.gender == null}">UNKNOWN</c:when>
+	                                                            </c:choose>
+	                                                            </p>
+	                                                        </td>
+	                                                    </tr>
+	                                                    <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
+	                                                        <td class="label">Average grade</td>
+	                                                        <td class="data">
+	                                                            <p>
+	                                                            <c:choose>
+	                                                            	<c:when test="${LIMITEDUSER.averageGrade != null}">${LIMITEDUSER.averageGrade}</c:when>
+	                                                            	<c:when test="${LIMITEDUSER.averageGrade == null}">0.0</c:when>
+	                                                            </c:choose>
+	                                                            </p>
+	                                                        </td>
+	                                                    </tr>
+	                                                    <tr class="field_3 field_bio optional-field visibility-public field_type_textarea">
+	                                                        <td class="label">Member from</td>
+	                                                        <td class="data">
+	                                                            <p>${LIMITEDUSER.createTime}</p>
+	                                                        </td>
+	                                                    </tr>
+	                                                </table>
+                                            	</c:if>
                                             </div>
 
                                         </div><!-- .profile -->
@@ -518,7 +671,7 @@
                             <h4 class="footertitle"><span>Popular Courses</span></h4><ul class="widget_course_list no-ajax">
                                 <li itemscope itemtype="http://schema.org/Product">
                                     <a href="course/social-media-management/index.html">
-                                        <img width="150" height="150" src="wp-content/uploads/2014/02/socialmedia1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="socialmedia" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/socialmedia1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/socialmedia1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/socialmedia1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
+                                        <img width="150" height="150" src="../wp-content/uploads/2014/02/socialmedia1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="socialmedia" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/socialmedia1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/socialmedia1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/socialmedia1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
                                             <em itemprop="name">Social Media Management</em><span>
                                                 <strong class="course-star-rating">
                                                     <i class="hide">4</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>
@@ -529,7 +682,7 @@
                                 </li>
                                 <li itemscope itemtype="http://schema.org/Product">
                                     <a href="course/developing-mobile-apps/index.html">
-                                        <img width="150" height="150" src="wp-content/uploads/2014/02/mobileapps1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="mobileapps" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/mobileapps1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/mobileapps1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/mobileapps1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
+                                        <img width="150" height="150" src="../wp-content/uploads/2014/02/mobileapps1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="mobileapps" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/mobileapps1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/mobileapps1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/mobileapps1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
                                             <em itemprop="name">Developing Mobile Apps</em><span>
                                                 <strong class="course-star-rating">
                                                     <i class="hide">3</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span><span></span>
@@ -540,7 +693,7 @@
                                 </li>
                                 <li itemscope itemtype="http://schema.org/Product">
                                     <a href="course/software-training/index.html">
-                                        <img width="150" height="150" src="wp-content/uploads/2014/02/softwaretraining1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="softwaretraining" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
+                                        <img width="150" height="150" src="../wp-content/uploads/2014/02/softwaretraining1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="softwaretraining" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
                                             <em itemprop="name">Software Training</em><span>
                                                 <strong class="course-star-rating">
                                                     <i class="hide">4.3</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>
@@ -556,7 +709,7 @@
                             <h4 class="footertitle"><span>Most Rated</span></h4><ul class="widget_course_list no-ajax">
                                 <li itemscope itemtype="http://schema.org/Product">
                                     <a href="course/basic-of-nature-photography/index.html">
-                                        <img width="150" height="150" src="wp-content/uploads/2014/02/photography31-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="photography3" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/photography31-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/photography31-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/photography31-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
+                                        <img width="150" height="150" src="../wp-content/uploads/2014/02/photography31-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="photography3" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/photography31-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/photography31-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/photography31-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
                                             <em itemprop="name">Basic of Nature Photography</em><span>
                                                 <strong class="course-star-rating">
                                                     <i class="hide">4</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>
@@ -567,7 +720,7 @@
                                 </li>
                                 <li itemscope itemtype="http://schema.org/Product">
                                     <a href="course/how-to-write-effectively/index.html">
-                                        <img width="150" height="150" src="wp-content/uploads/2014/02/writing11-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="writing1" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/writing11-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/writing11-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/writing11-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
+                                        <img width="150" height="150" src="../wp-content/uploads/2014/02/writing11-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="writing1" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/writing11-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/writing11-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/writing11-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
                                             <em itemprop="name">How to write effectively</em><span>
                                                 <strong class="course-star-rating">
                                                     <i class="hide">4</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>
@@ -578,7 +731,7 @@
                                 </li>
                                 <li itemscope itemtype="http://schema.org/Product">
                                     <a href="course/software-training/index.html">
-                                        <img width="150" height="150" src="wp-content/uploads/2014/02/softwaretraining1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="softwaretraining" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
+                                        <img width="150" height="150" src="../wp-content/uploads/2014/02/softwaretraining1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="softwaretraining" srcset="http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-150x150.jpg 150w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-180x180.jpg 180w, http://themes.vibethemes.com/wplms/skins/default/wp-content/uploads/2014/02/softwaretraining1-300x300.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" /><h6>
                                             <em itemprop="name">Software Training</em><span>
                                                 <strong class="course-star-rating">
                                                     <i class="hide">4.3</i><span class="fill"></span><span class="fill"></span><span class="fill"></span><span class="fill"></span><span></span>
@@ -591,7 +744,7 @@
                         </div>
                     </div>  <div class="col-md-3 col-sm-6">
                         <div class="footerwidget">
-                            <div class="textwidget"><img src="http://vibethemes.com/envato/wplms/wp-content/uploads/2014/02/banner-home.png" /></div>
+                            <div class="textwidget"><img src="../http://vibethemes.com/envato/wplms/wp-content/uploads/2014/02/banner-home.png" /></div>
                         </div>
                     </div>
                 </div>
@@ -605,7 +758,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <h2 id="footerlogo"><a href="index.html"><img src="wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a></h2>
+                    <h2 id="footerlogo"><a href="index.html"><img src="../wp-content/themes/wplms/assets/images/logo.png" alt="WPLMS" /></a></h2>
                 </div>
                 <div class="col-md-9">
                     <div id="footermenu">
@@ -733,64 +886,64 @@
             });
         });
     </script>
-    <link rel='stylesheet' id='eventon_dynamic_styles-css' href='wp-content/plugins/eventON/assets/css/eventon_dynamic_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
-    <script type='text/javascript' src='wp-content/plugins/bbpress/templates/default/js/editore4d2.js?ver=2.5.8-5815'></script>
+    <link rel='stylesheet' id='eventon_dynamic_styles-css' href='../wp-content/plugins/eventON/assets/css/eventon_dynamic_stylesc1f9.css?ver=4.4.2' type='text/css' media='all' />
+    <script type='text/javascript' src='../wp-content/plugins/bbpress/templates/default/js/editore4d2.js?ver=2.5.8-5815'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var mejsL10n = { "language": "en-US", "strings": { "Close": "Close", "Fullscreen": "Fullscreen", "Download File": "Download File", "Download Video": "Download Video", "Play\/Pause": "Play\/Pause", "Mute Toggle": "Mute Toggle", "None": "None", "Turn off Fullscreen": "Turn off Fullscreen", "Go Fullscreen": "Go Fullscreen", "Unmute": "Unmute", "Mute": "Mute", "Captions\/Subtitles": "Captions\/Subtitles" } };
         var _wpmejsSettings = { "pluginPath": "\/wplms\/skins\/default\/wp-includes\/js\/mediaelement\/" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-and-player.mineb0c.js?ver=2.18.1'></script>
+    <script type='text/javascript' src='../wp-includes/js/mediaelement/mediaelement-and-player.mineb0c.js?ver=2.18.1'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var thickboxL10n = { "next": "Next >", "prev": "< Prev", "image": "Image", "of": "of", "close": "Close", "noiframes": "This feature requires inline frames. You have iframes disabled or your browser does not support them.", "loadingAnimation": "http:\/\/themes.vibethemes.com\/wplms\/skins\/default\/wp-includes\/js\/thickbox\/loadingAnimation.gif" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-includes/js/thickbox/thickboxab87.js?ver=3.1-20121105'></script>
+    <script type='text/javascript' src='../wp-includes/js/thickbox/thickboxab87.js?ver=3.1-20121105'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var vibe_shortcode_strings = { "sending_mail": "Sending mail", "error_string": "Error :", "invalid_string": "Invalid ", "captcha_mismatch": "Captcha Mismatch" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/vibe-shortcodes/js/shortcodes5152.js?ver=1.0'></script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+    <script type='text/javascript' src='../wp-content/plugins/vibe-shortcodes/js/shortcodes5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var woocommerce_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/?wc-ajax=%%endpoint%%" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min16b9.js?ver=2.5.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wc_cart_fragments_params = { "ajax_url": "\/wplms\/skins\/default\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/wplms\/skins\/default\/?wc-ajax=%%endpoint%%", "fragment_name": "wc_fragments" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/vibe-course-module/includes/js/course-module-js.min6734.js?ver=1.9.9'></script>
-    <script type='text/javascript' src='wp-includes/js/mediaelement/wp-mediaelementc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min16b9.js?ver=2.5.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/vibe-course-module/includes/js/course-module-js.min6734.js?ver=1.9.9'></script>
+    <script type='text/javascript' src='../wp-includes/js/mediaelement/wp-mediaelementc1f9.js?ver=4.4.2'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var BP_DTheme = { "accepted": "Accepted", "close": "Close", "comments": "comments", "leave_group_confirm": "Are you sure you want to leave this group?", "mark_as_fav": "Favorite", "my_favs": "My Favorites", "rejected": "Rejected", "remove_fav": "Remove Favorite", "show_all": "Show all", "show_all_comments": "Show all comments for this thread", "show_x_comments": "Show all %d comments", "unsaved_changes": "Your profile has unsaved changes. If you leave the page, the changes will be lost.", "view": "View", "too_short": "Too short", "weak": "Weak", "good": "Good", "strong": "Strong" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/themes/wplms/assets/js/old_files/buddypressd5f7.js?ver=2.0'></script>
+    <script type='text/javascript' src='../wp-content/themes/wplms/assets/js/old_files/buddypressd5f7.js?ver=2.0'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var vibe_course_module_strings = { "too_fast_answer": "Too Fast or Answer not marked.", "answer_saved": "Answer Saved.", "processing": "Processing...", "saving_answer": "Saving Answer...please wait", "remove_user_text": "This step is irreversible. Are you sure you want to remove the User from the course ?", "remove_user_button": "Confirm, Remove User from Course", "confirm": "Confirm", "cancel": "Cancel", "reset_user_text": "This step is irreversible. All Units, Quiz results would be reset for this user. Are you sure you want to Reset the Course for this User?", "reset_user_button": "Confirm, Reset Course for this User", "quiz_reset": "This step is irreversible. All Questions answers would be reset for this user. Are you sure you want to Reset the Quiz for this User? ", "quiz_reset_button": "Confirm, Reset Quiz for this User", "marks_saved": "Marks Saved", "quiz_marks_saved": "Quiz Marks Saved", "submit_quiz": "Submit Quiz", "sending_messages": "Sending Messages ...", "adding_students": "Adding Students to Course ...", "successfuly_added_students": "Students successfully added to Course", "unable_add_students": "Unable to Add students to Course", "select_fields": "Please select fields to download", "download": "Download", "timeout": "TIMEOUT", "theme_color": "#78c8c9", "single_dark_color": "#232b2d", "for_course": "for Course", "active_filters": "Active Filters", "clear_filters": "Clear all filters", "remove_comment": "Are you sure you want to remove this note?", "remove_comment_button": "Confirm, remove note", "private_comment": "Make Private", "add_comment": "Add your note", "submit_quiz_error": "Please add questions or retake the quiz !", "remove_announcement": "Are you sure you want to remove this Annoucement?", "start_quiz_notification": "You're about to start the Quiz. Please click confirm to begin the quiz.", "submit_quiz_notification": "Are you sure you want to submit the quiz. Submitting the quiz will freeze all your answers, you can not change them.  Please confirm.", "check_results": "Check results", "correct": "Correct", "incorrect": "Incorrect", "confirm_apply": "Are you sure you want to apply for this Course ?", "instructor_uncomplete_unit": "Are you sure you want mark this unit \"uncomplete\" for the user ?", "instructor_complete_unit": "Are you sure you want to mark this unit \"complete\" for the user ?", "unanswered_questions": "You have few unanswered questions. Are you sure you want to continue ?" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/vibe-course-module/includes/js/course6734.js?ver=1.9.9'></script>
-    <script type='text/javascript' src='wp-includes/js/wp-embed.minc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/vibe-course-module/includes/js/course6734.js?ver=1.9.9'></script>
+    <script type='text/javascript' src='../wp-includes/js/wp-embed.minc1f9.js?ver=4.4.2'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wplms = { "more": "More", "view_more": "View More", "menu": "Menu", "wplms_woocommerce_validate": "Please fill in all the required fields (indicated by *)", "open_menu": "Open\/Close Menu" };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/themes/wplms/assets/js/wplms.minc1f9.js?ver=4.4.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/jquery.mousewheel.min7140.js?ver=0.31'></script>
-    <script type='text/javascript' src='wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_script7140.js?ver=0.31'></script>
+    <script type='text/javascript' src='../wp-content/themes/wplms/assets/js/wplms.minc1f9.js?ver=4.4.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/jquery.mousewheel.min7140.js?ver=0.31'></script>
+    <script type='text/javascript' src='../wp-content/plugins/wplms-eventon/includes/eventon-daily-view/assets/dv_script7140.js?ver=0.31'></script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
